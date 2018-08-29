@@ -1,0 +1,50 @@
+NUM_LOCATIONS 45
+
+
+;Number    X     Y   Type     Special_value
+
+ 0       246   188   tone     0
+ 1       845   230   tone     0
+ 2      1444   189   tone     0
+ 3      2211   265   tone     0
+ 4       215   230   mdpad    0
+ 5       285   213   smpad    0
+ 6       260   300   smpad    0
+ 7       326   280   smpad    0
+ 8       366   298   mdpad    0
+ 9       469   284   lgpad    0
+10       541   298   smpad    0
+11       735   174   bridge   0
+12      1330   193   bridge   0
+13      1855   202   bridge   0
+14      2113   167   bridge   0
+15       627   300   mdpad    0
+16       823   170   mdpad    0
+17       681   216   lgpad    0
+18       770   251   smpad    0
+19       715   248   smpad    0
+20      1007   310   smpad    0
+21      1188   305   smpad    0
+22      1255   299   mdpad    0
+23      1392   242   lgpad    0
+24      1322   276   smpad    0
+25      1520   214   smpad    0
+26      1746   299   smpad    0
+27      1541   294   smpad    0
+28      1644   263   smpad    0
+29      1604   301   mdpad    0
+30      1465   251   smpad    0
+31      1434   288   smpad    0
+32      1356   299   smpad    0
+33      1682   290   mdpad    0
+34      1914   170   mdpad    0
+35      1941   269   smpad    0
+36      1844   256   smpad    0
+37      1889   266   smpad    0
+38      2013   172   lgpad    0
+39      2049   289   smpad    0
+40      2177   194   smpad    0
+41      2151   299   smpad    0
+42      2100   240   mdpad    0
+43      2008   238   smpad    0
+44       881   254   smpad    0

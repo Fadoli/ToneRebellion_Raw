@@ -1,0 +1,57 @@
+NUM_LOCATIONS 50
+
+
+;Number    X     Y   Type     Special_value
+
+ 0        92   200   tone     0
+ 1      1113   265   tone     0
+ 2      1837   291   tone     0
+ 3      2428   161   tone     0
+ 4        40   239   mdpad    0
+ 5       168   125   bridge   1
+ 6        36   119   smpad    0
+ 7       183   194   smpad    0
+ 8       233   260   mdpad    0
+ 9       281   284   mdpad    0
+10       347   299   smpad    0
+11       407   302   smpad    0
+12       469   304   mdpad    0
+13       567   247   smpad    0
+14       587   305   smpad    0
+15       655   302   lgpad    0
+16       747   281   smpad    0
+17       842   283   smpad    0
+18      1009   260   smpad    0
+19      1047   301   smpad    0
+20      1179   238   mdpad    0
+21      1272   280   lgpad    0
+22      1190   295   smpad    0
+23      1347   303   smpad    0
+24      1392   272   smpad    0
+25      1555   289   smpad    0
+26      1635   267   mdpad    0
+27      1914   292   smpad    0
+28      1670   302   mdpad    0
+29      1730   303   smpad    0
+30      2031   301   smpad    0
+31      2088   285   mdpad    0
+32      1969   241   mdpad    0
+33      2162   242   lgpad    0
+34      2239   209   smpad    0
+35      2373   198   smpad    0
+36      2505   157   smpad    0
+37      2350   107   smpad    0
+38      2308   242   mdpad    0
+39      2365   292   smpad    0
+40       139   303   smpad    0
+41      1096   183   bridge   8
+42      1723   253   bridge   2
+43      1762   283   smpad    0
+44      1328   213   bridge   9
+45        88   292   smpad    0
+46      2210   285   smpad    0
+47       734   143   feature  0
+48       749   225   feattrig 0
+49       858   224   feattrig 1
+
+

@@ -1,0 +1,578 @@
+// Protector Stuff
+
+EFFECT          BHOOD                     // the name of the 'effect'
+TYPE            ONESHOT                   // effect type (inplace,bullet,etc...)
+REALM           PHY                       // effect realm
+SHAPE           PT1B                      // shapefile name
+LEVELFRAMES     4 1,15 16,30 31,46 47,62  // #levels, frames used (1-based)
+SOUND           BHOOD
+
+EFFECT          GAZECAST
+TYPE            CAST
+REALM           SUP
+SHAPE           PT2CAST
+LEVELFRAMES     1 1,10
+CHAIN           GAZER
+SOUND           GAZECAST
+
+EFFECT          GAZER
+TYPE            BULLET                     
+REALM           SUP
+SHAPE           PT2B                      
+LEVELFRAMES     4 1,7 8,14 15,21 22,28
+SOUND           GAZER
+
+EFFECT          NINJA                     
+TYPE            BULLET                     
+REALM           PHY
+SHAPE           PT3B                      
+LEVELFRAMES     3 1,4 5,8 9,14
+SOUND           NINJA
+
+// Mystic Stuff
+
+EFFECT          BANSHEE                    
+TYPE            ONESHOT                  
+REALM           ETH
+SHAPE           M-FXTR1                     
+LEVELFRAMES     3 1,21 22,42 43,63
+SOUND           BANSHEE
+
+EFFECT          STORMER                     
+TYPE            LIGHTNING                     
+REALM           ETH
+SHAPE           M-FXTR2                      
+LEVELFRAMES     1 1,6
+SOUND           STORMER
+
+EFFECT          ASTRAL                     
+TYPE            BULLET                     
+REALM           ETH
+SHAPE           M-FXTR3                      
+LEVELFRAMES     3 1,9 10,18 19,27
+SOUND           ASTRAL
+
+EFFECT          LTNGCAST
+TYPE            CAST
+REALM           NAT
+;SHAPE           M-FXTR2C
+SHAPE           JOIN1
+LEVELFRAMES     1 19,25
+CHAIN           STORMER
+SOUND           LTNGCAST
+
+// Seeker Stuff
+
+EFFECT          SOLCAST
+TYPE            CAST
+REALM           SUP
+SHAPE           ST1C
+SPEED           13
+LEVELFRAMES     1 1,12
+CHAIN           SOL	
+SOUND         SOLCAST
+
+EFFECT          SOL                     
+TYPE            BULLET                     
+REALM           SUP
+SHAPE           ST1B                      
+LEVELFRAMES     3 1,5 6,10 11,15
+SOUND           SOL
+
+EFFECT          SPIRITCAST
+TYPE            ONESHOT
+REALM           ETH
+SHAPE           ST2C
+LEVELFRAMES     1 1,15
+SOUND           SPIRITCAST
+
+EFFECT          LIGHTCAST
+TYPE            ONESHOT
+REALM           SUP
+SHAPE           S3C
+LEVELFRAMES     1 1,9
+SOUND           LIGHTCAST
+
+// Lifegiver stuff
+
+EFFECT          SUMMONS                     
+TYPE            BULLET                     
+REALM           NAT
+SHAPE           L-FXTR1                      
+LEVELFRAMES     3 1,3 4,6 7,11
+SOUND           SUMMONS
+
+EFFECT          SHRINK                  
+TYPE            ONESHOT
+REALM           NAT
+SHAPE           L-FXTR3                      
+LEVELFRAMES     1 1,10
+SOUND           SHRINK
+
+EFFECT          LIFECAST
+TYPE            CAST
+REALM           NAT
+SHAPE           LCAST
+LEVELFRAMES     1 1,24
+CHAIN           SUMMONS
+SOUND           LIFECAST
+
+// Leviathan stuff
+
+EFFECT          VPRB
+TYPE            BULLET
+REALM           PHY
+SHAPE           V-PRFX
+LEVELFRAMES     1 1,5
+SOUND           VPRB
+
+EFFECT          VERC
+TYPE            CAST
+REALM           ETH
+SHAPE           V-MERC
+LEVELFRAMES     1 1,6
+CHAIN           VERB
+SOUND           VERC
+
+EFFECT          VECC
+TYPE            ONESHOT
+REALM           ETH
+SHAPE           V-MECC
+LEVELFRAMES     1 1,11
+SOUND           VECC
+
+EFFECT          VERB
+TYPE            BULLET
+REALM           ETH
+SHAPE           V-MERB
+LEVELFRAMES     1 1,3
+SOUND           VERB
+
+EFFECT          VSRC
+TYPE            CAST
+REALM           SUP
+SHAPE           V-MSRC
+LEVELFRAMES     1 1,2
+CHAIN           VSRB
+SOUND           VSRC
+
+EFFECT          VSRB
+TYPE            BULLET
+REALM           SUP
+SHAPE           V-MSRC
+LEVELFRAMES     1 1,2
+SOUND           VSRB
+
+EFFECT          VNRB
+TYPE            BULLET
+REALM           NAT
+;SHAPE           V-MNRB
+SHAPE           JOIN3
+LEVELFRAMES     1 1,25
+SOUND           VNRB
+
+EFFECT          VSHT1B
+TYPE            BULLET
+REALM           ETH
+SHAPE           V-SHOT1B
+LEVELFRAMES     1 1,6
+SOUND           VSHT1b
+
+EFFECT          VSHROD
+TYPE            BULLET
+REALM           ETH
+SHAPE           V-MNRB
+LEVELFRAMES     1 1,8
+SOUND           VSHT1b
+
+EFFECT          VSPIRL
+TYPE            BULLET
+REALM           ETH
+SHAPE           JOIN4
+LEVELFRAMES     1 1,25
+SOUND           VSHT1b
+
+EFFECT          VSHT2B
+TYPE            BULLET
+REALM           SUP
+SHAPE           V-SHT2FX
+LEVELFRAMES     1 1,3
+SOUND           VSHT2B
+
+EFFECT          DEVIL                     
+TYPE            LIGHTNING                     
+REALM           ETH
+SHAPE           V-AT6FX                     
+LEVELFRAMES     1 1,6
+SOUND           DEVIL
+
+// Spell stuff
+
+EFFECT          PSPELL
+TYPE            SPECIAL
+REALM           PHY
+SHAPE           PCAST
+LEVELFRAMES     1 1,17
+SOUND           PSPELL
+
+EFFECT          SSPELL
+TYPE            SPECIAL
+REALM           PHY
+SHAPE           SCAST
+LEVELFRAMES     1 1,16
+SOUND           SSPELL
+
+EFFECT          MSPELL
+TYPE            SPECIAL
+REALM           PHY
+SHAPE           MCAST
+LEVELFRAMES     1 1,17
+SOUND           MSPELL
+
+EFFECT          LSPELL
+TYPE            SPECIAL
+REALM           PHY
+SHAPE           LCAST
+LEVELFRAMES     1 1,24
+SOUND           LSPELL
+
+EFFECT          HEALING
+TYPE            ONESHOT
+REALM           PHY
+SHAPE           SPL7
+LEVELFRAMES     1 8,23
+SOUND           HEALING
+
+EFFECT          LONGSHOT
+TYPE            SPECIAL
+REALM           PHY
+SHAPE           PT2B
+SPEED           20
+LEVELFRAMES     1 23,28
+SOUND           LONGSHOT
+
+EFFECT          BLASTWB
+TYPE            SPECIAL
+REALM           PHY
+SHAPE           SPL03
+LEVELFRAMES     1 1,17
+SOUND           BLASTWB
+
+EFFECT          DESTSUPP
+TYPE            SPECIAL
+REALM           PHY
+SHAPE           SPL04
+LEVELFRAMES     3 1,4 5,14 15,18
+SOUND           DESTSUPP
+
+EFFECT          KILLBEAS
+TYPE            SPECIAL
+REALM           PHY
+SHAPE           SPL5
+LEVELFRAMES     1 1,17
+SOUND           KILLBEAS
+
+EFFECT          FLTARMOR
+TYPE            SPECIAL
+REALM           PHY
+SHAPE           SPL6E
+LEVELFRAMES     1 1,15
+SOUND           FLTARMOR
+
+EFFECT          HYPERHEAL
+TYPE            SPECIAL
+REALM           PHY
+SHAPE           SPL7
+SPEED           20
+LEVELFRAMES     2 1,7 8,23
+SOUND           HYPERHEAL
+
+EFFECT          UPGRADE
+TYPE            SPECIAL
+REALM           PHY
+SHAPE           SPL8B
+SPEED           8
+LEVELFRAMES     1 1,6
+SOUND           UPGRADE
+
+EFFECT          FAROBT
+TYPE            SPECIAL
+REALM           PHY
+SHAPE           SPL9B
+LEVELFRAMES     1 1,8
+SOUND           FAROBT
+
+EFFECT          STOCKUP
+TYPE            SPECIAL
+REALM           PHY
+SHAPE           SPL10
+LEVELFRAMES     1 1,9
+SOUND           STOCKUP
+
+EFFECT          FREEZELB
+TYPE            SPECIAL
+REALM           PHY
+SHAPE           SPL12B
+SPEED           15
+LEVELFRAMES     1 1,10
+SOUND           FREEZELB
+
+EFFECT          FASTPROD
+TYPE            SPECIAL
+REALM           PHY
+SHAPE           SPL13
+LEVELFRAMES     1 1,8
+SOUND           FASTPROD
+
+EFFECT          BUILDTON
+TYPE            SPECIAL
+REALM           PHY
+SHAPE           SPL14
+LEVELFRAMES     2 1,1 2,32
+SOUND         BUILDTON
+
+EFFECT          REVPLOT
+TYPE            SPECIAL
+REALM           PHY
+SHAPE           SPL15
+LEVELFRAMES     1 1,17
+SOUND           REVPLOT
+
+EFFECT          REPAIR
+TYPE            SPECIAL
+REALM           PHY
+SHAPE           SPL16
+LEVELFRAMES     1 1,17
+SOUND           REPAIR
+
+EFFECT          BLDARMOR
+TYPE            SPECIAL
+REALM           PHY
+SHAPE           SPL17C
+LEVELFRAMES     1 1,18
+SOUND           BLDARMOR
+
+EFFECT          FASTFLT
+TYPE            SPECIAL
+REALM           PHY
+SHAPE           SPL18C
+LEVELFRAMES     1 1,15
+SOUND           FASTFLT
+
+EFFECT          LOCPROT
+TYPE            SPECIAL
+REALM           PHY
+SHAPE           SPL19E
+LEVELFRAMES     2 1,1 2,22
+SOUND           LOCPROT
+
+EFFECT          SACRIF
+TYPE            SPECIAL
+REALM           PHY
+SHAPE           SPL20
+LEVELFRAMES     1 1,17
+SOUND           SACRIF
+
+EFFECT          FREEZESC
+TYPE            SPECIAL
+REALM           PHY
+SHAPE           SPL21
+LEVELFRAMES     1 1,17
+SOUND           FREEZESC
+
+EFFECT          PARALYZE
+TYPE            SPECIAL
+REALM           PHY
+SHAPE           SPL22
+LEVELFRAMES     1 1,12
+SOUND           PARALYZE
+
+// General stuff
+
+EFFECT          PHYIMP
+TYPE            IMPACT
+REALM           PHY
+SHAPE           PHY
+LEVELFRAMES     4  1,11 12,22 23,33 34,45
+SOUND           PREALM
+
+EFFECT          SUPIMP
+TYPE            IMPACT
+REALM           SUP
+SHAPE           SUP
+LEVELFRAMES     4  1,13 14,26 27,39 40,52
+SOUND           SREALM
+
+EFFECT          ETHIMP
+TYPE            IMPACT
+REALM           ETH
+SHAPE           EREALM
+LEVELFRAMES     4  1,10 11,20 21,30 31,40
+SOUND           EREALM
+
+EFFECT          NATIMP
+TYPE            IMPACT
+REALM           NAT
+SHAPE           NREALM
+LEVELFRAMES     4  1,12 13,25 26,38 39,52
+SOUND           NREALM
+
+// Ascended-One glyph-cast effect
+
+EFFECT          ASCEND
+TYPE            SPECIAL
+REALM           NAT
+SHAPE           ACAST
+LEVELFRAMES     1  1,42
+SOUND           ASCEND
+
+// Floater Merge (endgame) effects
+
+EFFECT          JOIN1
+TYPE            ONESHOT
+REALM           SUP
+SHAPE           JOIN1
+LEVELFRAMES     1 1,25
+//SOUND         JOIN1
+
+EFFECT          JOIN2
+TYPE            ONESHOT
+REALM           SUP
+SHAPE           JOIN2
+LEVELFRAMES     1 1,25
+//SOUND         JOIN2
+
+EFFECT          JOIN3
+TYPE            ONESHOT
+REALM           SUP
+SHAPE           JOIN3
+LEVELFRAMES     1 1,25
+//SOUND         JOIN3
+
+EFFECT          JOIN4
+TYPE            ONESHOT
+REALM           SUP
+SHAPE           JOIN4
+LEVELFRAMES     1 1,25
+//SOUND         JOIN4
+
+EFFECT          JOIN5
+TYPE            ONESHOT
+REALM           SUP
+SHAPE           JOIN5
+LEVELFRAMES     1 1,25
+//SOUND         JOIN5
+
+EFFECT          JOIN6
+TYPE            ONESHOT
+REALM           SUP
+SHAPE           JOIN6
+LEVELFRAMES     1 1,26
+//SOUND         JOIN6
+
+
+// Sound-Only effects
+
+
+EFFECT          FLTBIRTH
+TYPE            SoundOnly
+SOUND           FLTBIRTH
+
+EFFECT          LEVBIRTH
+TYPE            SoundOnly
+SOUND           LEVBIRTH
+
+EFFECT          FLTDEATH
+TYPE            SoundOnly
+SOUND           FLTDEATH
+
+EFFECT          LEVDEATH
+TYPE            SoundOnly
+SOUND           LEVDEATH
+
+EFFECT          FLTBUILD
+TYPE            SoundOnly
+SOUND           FLTBUILD
+
+EFFECT          LEVBUILD
+TYPE            SoundOnly
+SOUND           LEVBUILD
+
+EFFECT          BRIDGE
+TYPE            SoundOnly
+SOUND           BRIDGE
+
+EFFECT          CRUMBLE
+TYPE            SoundOnly
+SOUND           crumble
+
+//EFFECT          BUILDUPG
+//TYPE            SoundOnly
+//SOUND           buildupg
+
+//EFFECT          FLOATADV
+//TYPE            SoundOnly
+//SOUND           floatadv
+
+//EFFECT          LEVIBOND
+//TYPE            SoundOnly
+//SOUND           levibond
+
+EFFECT          FEAT00
+TYPE            SoundOnly
+SOUND           tarzus
+
+EFFECT          FEAT01
+TYPE            SoundOnly
+SOUND           crystal
+
+EFFECT          FEAT02
+TYPE            SoundOnly
+SOUND           cephean
+
+EFFECT          FEAT03
+TYPE            SoundOnly
+SOUND           pangir
+
+EFFECT          FEAT04
+TYPE            SoundOnly
+SOUND           dreenbog
+
+EFFECT          FEAT05
+TYPE            SoundOnly
+SOUND           onsama
+
+EFFECT          FEAT06
+TYPE            SoundOnly
+SOUND           palomon
+
+EFFECT          FEAT07
+TYPE            SoundOnly
+SOUND           tonal
+
+EFFECT          FEAT08
+TYPE            SoundOnly
+SOUND           core
+
+EFFECT          FEAT09
+TYPE            SoundOnly
+SOUND           frenza
+
+EFFECT          FEAT10
+TYPE            SoundOnly
+SOUND           lethe
+
+EFFECT          FEAT11
+TYPE            SoundOnly
+SOUND           mymus
+
+EFFECT          FEAT12
+TYPE            SoundOnly
+SOUND           morfid
+
+EFFECT          FEAT13
+TYPE            SoundOnly
+SOUND           norasten
+
+
+END

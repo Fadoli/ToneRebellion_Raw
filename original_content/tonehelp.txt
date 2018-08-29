@@ -1,0 +1,422 @@
+
+; This file contains help text entries for all windows.  Most windows
+; have one entry corresponding to the window name from windows.txt.
+;
+; Some windows have multiple entries (such as the Islewindow) to
+; provide more context sensitive information depending on mouse pos.
+
+
+;---------------------
+; Titlescreen state: 0
+
+BACKGRND
+Vous pouvez commencer une nouvelle partie, charger une partie pr‚c‚demment sauvegard‚e, reprendre l… o— vous aviez laiss‚ votre partie la plus r‚cente ou quitter le jeu.
+END
+
+NEWGAME
+D‚marre une nouvelle partie de Tone Rebellion.
+END
+
+RESUME
+Permet de revenir … la derniŠre partie jou‚e.
+END
+
+LOADGAME
+Charge une partie sauvegard‚e.
+END
+
+EXITAPP
+Permet de revenir … Windows.
+END
+;---------------------
+; New Game state: 1
+
+NEWGAMWND
+Cet ‚cran correspond … une nouvelle partie. Vous pouvez choisir votre tribu, le niveau de difficult‚, et la dimension de l'univers de jeu. Vous pouvez aussi obtenir des informations relatives … une tribu en la s‚lectionnant. La partie ne pourra d‚buter avant que vous ayez effectu‚ votre choix.
+END
+
+EXITNEWGAME
+Retour au sommaire.
+END
+
+WORLDSIZE
+Ce bouton vous permet de s‚lectionner la taille de votre univers, qui peut aller de 7 Œles (un seul cercle bleu) … 15 Œles (3 cercles), en passant par 11 ( 2 cercles).
+END
+
+TRIBE0
+S‚lectionne la tribu des Tarks.
+END
+
+TRIBE1
+S‚lectionne la tribu des Zygons.
+END
+
+TRIBE2
+S‚lectionne la tribu des C‚ph‚ens.
+END
+
+TRIBE3
+S‚lectionne la tribu des Dyla.
+END
+
+DIFFICULTY
+Ce bouton vous permet de s‚lectionner le niveau de difficult‚ de la partie. La taille du L‚viathan au milieu de l'‚cran vous indique le niveau de difficult‚ de la partie.
+END
+
+BEGINGAME
+D‚marre le jeu avec les paramŠtres s‚lectionn‚s.
+END
+
+;---------------------
+; World View state: 2
+
+WORLDVIEW
+Ceci est une repr‚sentation de l'univers de Tone Rebellion. Au fur et … mesure que vous d‚couvrirez de nouvelles Œles, celles-ci se coloreront. Les ponts activ‚s apparaissent en bleu entre les Œles qu'ils relient. Placez la souris sur une Œle pour connaŒtre son nom. Cliquez sur une Œle pour visualiser sa surface grƒce … la vue insulaire.
+END
+
+;-------------------------
+; Load/Save state: 4 and 5
+
+LOADSAVE
+Cet ‚cran vous permet de sauvegarder et de charger des parties. Chaque emplacement repr‚sente une partie sauvegard‚e. En mode sauvegarde, cliquez sur un emplacement pour ‚craser son contenu pr‚c‚dent et sauvegarder la partie en cours. En mode chargement, cliquez sur un emplacement occup‚ pour charger la partie qu'il contient.
+END
+
+;---------------------
+; Island View state: 3
+
+ISLEVIEW
+Cet ‚cran vous permet de visualiser une Œle. Il vous permet d'interagir avec ses ‚l‚ments et de guider votre tribu. Les spirales lumineuses qui apparaissent dans le paysage sont des nodules de Tone, c'est-…-dire des zones constructibles. Lorsque vous voulez construire, choisissez une zone et s‚lectionnez un type de bƒtiment. Si vous d‚placez la souris vers la droite ou la gauche de votre ‚cran, vous verrez une autre partie de l'Œle.
+END
+
+;------------------------------------------
+; interface for construction on tone nodes
+;------------------------------------------
+
+IWConstruct
+Vous pouvez choisir un type de bƒtiment dans la liste figurant dans cette zone d'‚cran afin que votre tribu le construise sur la zone s‚lectionn‚e.
+END
+
+BuildCycle
+Cliquez sur ce bouton pour parcourir la liste des bƒtiments que vous pouvez construire sur la zone s‚lectionn‚e. Plus la zone est vaste, plus le choix de bƒtiments propos‚ est grand.
+END
+
+;------------------------------------------
+; interface for picking up objects
+;------------------------------------------
+BC_Obtain
+Cliquez ici pour demander … votre tribu de ramasser l'objet s‚lectionn‚ et de l'amener dans le Refuge du Clan.
+END
+
+;------------------------------------------
+; main interface buttons (glass ovals)
+;------------------------------------------
+
+GOTOMAP
+Cliquez sur ce bouton pour revenir … la carte principale, d'o— vous pouvez voir toutes les Œles et les ponts de l'univers de Tone Rebellion.
+END
+
+PANIC
+Le bouton Panique permet de faire passer votre tribu en mode attaque ou de l'en faire sortir. Faites-en usage quand le L‚viathan s'est introduit dans votre communaut‚, ou lorsque vous d‚sirez que tous vos ouvriers abandonnent leur tƒche en cours pour repousser les intrus. Cliquez de nouveau sur ce bouton pour que vos ouvriers reprennent leurs activit‚s. Le bouton Panique clignote quand le mode attaque est d‚clench‚.
+END
+
+TOGREALM
+Le bouton Info fait apparaŒtre une petite ic“ne … c“t‚ de chacun de vos Flotteurs. Ces ic“nes vous renseignent sur la caste et l'‚tat de sant‚ de chaque individu. Les Flotteurs entraŒn‚s au combat affichent aussi un niveau d'‚nergie.
+END
+
+TASKLIST
+Ce bouton fait s'afficher la liste des tƒches possibles. Celle-ci vous permet d'organiser les travaux assign‚s … votre tribu, ainsi que d'annuler une tƒche ou d'en changer le niveau de priorit‚.
+END
+
+;------------------------------------------
+; permanent areas in the interface
+;------------------------------------------
+
+IWRealm
+Cette zone de l'‚cran montre la relation qui unit les quatre royaumes de Tone Rebellion. Chaque royaume est plus fort que celui qui le suit lorsqu'on se d‚place dans le sens des aiguilles d'une montre, et la puissance de royaumes oppos‚s change en fonction des fluctuations du Tone. Quand un symbole est allum‚, cela signifie que le royaume qu'il repr‚sente est plus puissant que celui qui lui est diam‚tralement oppos‚.
+END
+
+IWLilMap
+Cette version r‚duite de la carte de l'Œle sert de radar : elle donne des informations sur les zones n'apparaissant pas … l'‚cran. Vous pouvez aussi cliquer sur cette carte pour vous rendre … un endroit pr‚cis.
+END
+
+// TRANSLATION NEW
+
+CLIPSEL1
+Ce bouton permet … s‚lectionner le premier groupe de Dojos et de Tours des Sorts de votre tribu. Chaque groupe peut comprendre jusqu'… trois bƒtiments ; vous acc‚dez donc rapidement … neuf bƒtiments grƒce … cette option.
+END
+
+// TRANSLATION NEW
+
+CLIPSEL2
+Ce bouton permet de s‚lectionner le second groupe de Dojos et de Tours des Sorts de votre tribu. Chaque groupe peut comprendre jusqu'… trois bƒtiments ; vous acc‚dez donc rapidement … neuf bƒtiments grƒce … cette option.
+END
+
+// TRANSLATION NEW
+
+CLIPSEL3
+Ce bouton permet de s‚lectionner le troisiŠme groupe de Dojos et de Tours des Sorts de votre tribu. Chaque groupe peut comprendre jusqu'… trois bƒtiments ; vous acc‚dez donc rapidement … neuf bƒtiments grƒce … cette option.
+END
+
+CLIPBD1
+PremiŠre zone d'affichage des bƒtiments. Elle permet un accŠs rapide aux Dojos et aux Tours des Sorts. Cliquez sur un bƒtiment pour que son image s'affiche dans cette zone de l'‚cran. Cliquez avec le bouton gauche sur l'image d'un bƒtiment pour le s‚lectionner. Cliquez avec le bouton droit pour effacer l'image d'un bƒtiment de cette zone.
+END
+
+CLIPBD2
+Seconde zone d'affichage des bƒtiments. Elle permet un accŠs rapide aux Dojos et aux Tours des Sorts. Cliquez sur un bƒtiment pour que son image s'affiche dans cette zone de l'‚cran. Cliquez avec le bouton gauche sur l'image d'un bƒtiment pour le s‚lectionner. Cliquez avec le bouton droit pour effacer l'image d'un bƒtiment de cette zone.
+END
+
+CLIPBD3
+TroisiŠme zone d'affichage des bƒtiments. Elle permet un accŠs rapide aux Dojos et aux Tours des Sorts. Cliquez sur un bƒtiment pour que son image s'affiche dans cette zone de l'‚cran. Cliquez avec le bouton gauche sur l'image d'un bƒtiment pour le s‚lectionner. Cliquez avec le bouton droit pour effacer l'image d'un bƒtiment de cette zone.
+END
+;------------------------------------------
+; Job interface
+;------------------------------------------
+
+IWTasks
+Cette liste comporte toutes les tƒches que peut effectuer votre tribu sur cette Œle. Cliquez sur une tƒche pour obtenir des informations compl‚mentaires et afficher les diverses options.
+END
+
+TaskKill
+Permet d'annuler la tƒche s‚lectionn‚e et de la retirer de la liste des tƒches.
+END
+
+TaskNorm
+Permet de donner une Priorit‚ Normale … la tƒche s‚lectionn‚e.
+END
+
+TaskHigh
+Permet de donner une Priorit‚ Haute … la tƒche s‚lectionn‚e.
+Les tƒches de Priorit‚ Haute demandent deux fois plus de main-d'oeuvre que les tƒches de Priorit‚ Normale.
+END
+
+TaskExcl
+Permet de donner une Priorit‚ Absolue … la tƒche s‚lectionn‚e. Aucune autre tƒche ne peut ˆtre conduite tant que la tƒche de Priorit‚ Absolue n'est pas achev‚e.
+END
+
+IWTaskInfo
+Cette zone vous donne des pr‚cisions sur les tƒches que vous avez s‚lectionn‚es dans la liste pr‚sente … gauche de l'‚cran.
+END
+
+
+;------------------------------------------
+; on/off button, for switchable buildings
+;------------------------------------------
+
+BC_OnOff
+Ceci vous permet d'activer ou de d‚sactiver un bƒtiment. Quand un bƒtiment est d‚sactiv‚, le Tone qu'il consommait se retrouve ajout‚ au surplus de Tone.
+END
+
+;------------------------------------------
+; Tribal Center controls--center window
+;------------------------------------------
+
+IWHallMove
+Cette ic“ne vous permet de t‚l‚porter la plupart des bƒtiments. Quand elle est sombre, cela signifie que vous n'avez pas assez de Tone structurel ni de Tone magique dans votre r‚serve pour d‚placer le bƒtiment choisi. Le co–t de d‚placement varie en fonction des bƒtiments. Quand l'ic“ne est lumineuse, vous pouvez cliquer sur un bƒtiment apparaissant en bleu pour initier un d‚placement. Positionner le curseur sur un nodule de Tone vous permet de savoir si le d‚placement est possible ou non. Cliquez pour valider un mouvement autoris‚.
+END
+
+BC_HallStkB
+Ce bouton fait fluctuer le stock de Tone structurel. Cliquez dessus pour choisir l'un des trois modes suivants : une flŠche pointant vers le bas signifie que votre r‚serve se remplit, une autre orient‚e vers le haut indique qu'elle peut ˆtre vid‚e, et un petit toit que le Tone structurel reste stock‚.
+END
+
+BC_HallStkC
+Ce bouton fait fluctuer le stock de Tone cristallin. Cliquez dessus pour choisir l'un des trois modes suivants : une flŠche pointant vers le bas signifie que votre r‚serve se remplit, une autre orient‚e vers le haut indique qu'elle peut ˆtre vid‚e, et un petit toit que le Tone cristallin reste stock‚.
+END
+
+BC_HallStkM
+Ce bouton fait fluctuer le stock de Tone magique. Cliquez dessus pour choisir l'un des trois modes suivants : une flŠche pointant vers le bas signifie que votre r‚serve se remplit, une autre orient‚e vers le haut indique qu'elle peut ˆtre vid‚e, et un petit toit que le Tone magique reste stock‚.
+END
+
+;------------------------------------------
+; Dojo interface
+;------------------------------------------
+
+BC_TrnStkC
+Ce bouton contr“le l'alimentation d'un bƒtiment en Tone cristallin. Cliquez dessus pour choisir un des deux modes : une flŠche vers le bas indique que vos ouvriers approvisionnent le bƒtiment en Tone cristallin, et l'absence de flŠche indique que l'approvisionnement n'est pas assur‚.
+END
+
+BC_TrnStkM
+Ce bouton contr“le l'alimentation en Tone magique de la Tour des Sorts. Cliquez dessus pour choisir entre deux modes : une flŠche vers le bas indique que vos ouvriers approvisionnent le bƒtiment en Tone magique, et l'absence de flŠche indique que l'approvisionnement n'est pas assur‚.
+END
+
+IWMove
+Cette ic“ne vous permet de t‚l‚porter la plupart des bƒtiments. Quand elle est sombre, cela signifie que vous n'avez pas assez de Tone structurel ni de Tone magique dans votre r‚serve pour d‚placer le bƒtiment choisi. Le co–t de d‚placement varie en fonction des bƒtiments. Quand l'ic“ne est lumineuse, vous pouvez cliquer sur un bƒtiment apparaissant en bleu pour initier un d‚placement. Positionner le curseur sur un nodule de Tone vous permet de savoir si le d‚placement est possible ou non. Cliquez pour valider un mouvement autoris‚.
+END
+
+BC_Upgrade
+Ce bouton vous permet d'am‚liorer un Dojo ou une Tour des Sorts pr‚cis. Le co–t de l'am‚lioration est exprim‚ en Tone structurel. Le bƒtiment am‚lior‚ vous permettra d'entraŒner plus de Flotteurs … un plus haut niveau, sera peut-ˆtre de taille plus importante et co–tera plus cher pour ˆtre d‚plac‚.
+END
+
+BC_Repair
+Ce bouton vous permet de faire travailler votre tribu … la r‚paration des d‚gƒts subis par l'un de vos bƒtiments. Ce processus n‚cessite du Tone structurel.
+END
+
+BC_DefendArea
+Ceci donne l'ordre aux Flotteurs du Dojo de votre choix de d‚fendre la zone sur laquelle vous allez cliquer. Ils adoptent ‚galement un comportement d‚fensif lorsqu'ils ont accompli votre dernier ordre ou lorsque vous cliquez … l'aide du bouton droit sur une zone ou un bƒtiment ami.
+END
+
+BC_DefendFlt
+Ceci donne l'ordre aux Flotteurs du Dojo s‚lectionn‚ de d‚fendre le Flotteur de votre choix. Ils suivront le Flotteur et tƒcheront de le prot‚ger. Ceci s'avŠre particuliŠrement utile lorsqu'il s'agit d'offrir une protection rapproch‚e … un Sage. Cliquer … l'aide du bouton droit sur un Flotteur ami aura le mˆme effet.
+END
+
+BC_Recall
+Donne l'ordre aux Flotteurs du Dojo s‚lectionn‚ de retourner … celui-ci. Ils y reprendront des forces et gu‚riront de leurs blessures, puis voleront au-dessus de leur Dojo en mode d‚fensif.
+END
+
+BC_AttackFlt
+Donne l'ordre aux Flotteurs du Dojo s‚lectionn‚ d'attaquer le Flotteur sur lequel vous allez cliquer. Cliquer … l'aide du bouton droit sur un Flotteur ennemi produira le mˆme effet.
+END
+
+BC_AttackLoc
+Donne l'ordre aux Flotteurs du Dojo s‚lectionn‚ d'attaquer le bƒtiment ou le germe parasite sur lesquels vous cliquez. Cliquer … l'aide du bouton droit sur un bƒtiment ou un germe parasite ennemi produira le mˆme effet.
+END
+
+;------------------------------------------
+; spell building interface
+;------------------------------------------
+BC_Spell1
+En pla‡ant votre souris … cet endroit, vous obtenez des informations sur le premier sort de votre tribu : son nom, son effet, son niveau et son co–t. Quand vous cliquez dessus, vous lancez ce sort, … la condition d'avoir les ‚l‚ments requis. Il vous faudra peut-ˆtre cliquer sur une cible aprŠs avoir s‚lectionn‚ votre sort.
+END
+
+BC_Spell2
+En pla‡ant votre souris … cet endroit, vous obtenez des informations sur le deuxiŠme sort de votre tribu : son nom, son effet, son niveau et son co–t. Quand vous cliquez dessus, vous lancez ce sort, … la condition d'avoir les ‚l‚ments requis. Il vous faudra peut-ˆtre cliquer sur une cible aprŠs avoir s‚lectionn‚ votre sort.
+END
+
+BC_Spell3
+En pla‡ant votre souris … cet endroit, vous obtenez des informations sur le troisiŠme sort de votre tribu : son nom, son effet, son niveau et son co–t. Quand vous cliquez dessus, vous lancez ce sort, … la condition d'avoir les ‚l‚ments requis. Il vous faudra peut-ˆtre cliquer sur une cible aprŠs avoir s‚lectionn‚ votre sort.
+END
+
+BC_Spell4
+En pla‡ant votre souris … cet endroit, vous obtenez des informations sur le quatriŠme sort de votre tribu : son nom, son effet, son niveau et son co–t. Quand vous cliquez dessus, vous lancez ce sort, … la condition d'avoir les ‚l‚ments requis. Il vous faudra peut-ˆtre cliquer sur une cible aprŠs avoir s‚lectionn‚ votre sort.
+END
+
+BC_Spell5
+En pla‡ant votre souris … cet endroit, vous obtenez des informations sur le cinquiŠme sort de votre tribu : son nom, son effet, son niveau et son co–t. Quand vous cliquez dessus, vous lancez ce sort, … la condition d'avoir les ‚l‚ments requis. Il vous faudra peut-ˆtre cliquer sur une cible aprŠs avoir s‚lectionn‚ votre sort.
+END
+
+BC_Spell6
+En pla‡ant votre souris … cet endroit, vous obtenez des informations sur le sixiŠme sort de votre tribu : son nom, son effet, son niveau et son co–t. Quand vous cliquez dessus, vous lancez ce sort, … la condition d'avoir les ‚l‚ments requis. Il vous faudra peut-ˆtre cliquer sur une cible aprŠs avoir s‚lectionn‚ votre sort.
+END
+
+BC_Spell7
+En pla‡ant votre souris … cet endroit, vous obtenez des informations sur le septiŠme sort de votre tribu : son nom, son effet, son niveau et son co–t. Quand vous cliquez dessus, vous lancez ce sort, … la condition d'avoir les ‚l‚ments requis. Il vous faudra peut-ˆtre cliquer sur une cible aprŠs avoir s‚lectionn‚ votre sort.
+END
+
+BC_Spell8
+En pla‡ant votre souris … cet endroit, vous obtenez des informations sur le huitiŠme sort de votre tribu : son nom, son effet, son niveau et son co–t. Quand vous cliquez dessus, vous lancez ce sort, … la condition d'avoir les ‚l‚ments requis. Il vous faudra peut-ˆtre cliquer sur une cible aprŠs avoir s‚lectionn‚ votre sort.
+END
+
+;------------------------------------------
+; tribal center functions
+;------------------------------------------
+;--------------------
+; collected artifacts
+;--------------------
+
+BC_Storage
+Ceci vous permet de visualiser les artefacts de votre tribu, d'en s‚lectionner un, d'obtenir des informations … son sujet et de l'utiliser.
+END
+
+IWInventory
+Cette fenˆtre vous montre les artefacts que votre tribu a trouv‚s. Vous pouvez cliquer sur l'un d'entre eux pour le s‚lectionner, obtenir des informations … son sujet ou l'utiliser. Si vous poss‚dez plus d'artefacts qu'il ne peut s'en afficher dans cette zone, une flŠche apparaŒtra qui vous permettra de les faire d‚filer … l'‚cran.
+END
+
+InvCycle
+Cette flŠche vous permet de circuler dans la r‚serve d'artefacts de votre tribu quand tous ne peuvent s'afficher dans la zone pr‚vue … cet effet.
+END
+;--------------------
+
+BC_Knowledge
+Ce bouton fait apparaŒtre les glyphes anciens que votre tribu a d‚couverts. Vous pouvez en lire la signification en pla‡ant le curseur sur eux. Vous pouvez en s‚lectionner un et l'appliquer sur un Sceau du L‚viathan si votre tribu compte un Sage dans ses rangs.
+END
+;--------------------
+BC_Diplomacy
+En mode multijoueurs, ce bouton fait apparaŒtre l'interface diplomatique, qui vous permet de s‚lectionner les tribus amies ainsi que les joueurs qui recevront vos messages.
+END
+
+IWDiplomacy
+Cette zone vous permet de d‚cider de votre politique diplomatique envers une autre tribu ainsi que de choisir d'envoyer vos messages … toutes les tribus ou seulement … certaines d'entre elles. Cliquez sur un des symboles repr‚sentant ces actions pour les d‚clencher.
+END
+;--------------------
+BC_Trade
+En mode multijoueurs, ce bouton fait apparaŒtre l'interface commerciale, qui vous permet de fournir du Tone … d'autres tribus.
+END
+
+IWTrade
+Cette zone vous permet de transf‚rer une partie du Tone que vous avez accumul‚ vers une autre tribu. Un clic gauche sur une case accroŒt la quantit‚ de l'‚l‚ment transf‚r‚, et un clic droit la fait diminuer. Aucune transaction n'est effectu‚e avant que vous n'ayez donn‚ votre accord final.
+END
+
+TradeZERO
+Ce bouton remet … z‚ro les quantit‚s transf‚r‚es dans chaque case du tableau.
+END
+
+TradeDOIT
+Ce bouton transfŠre les ‚l‚ments s‚lectionn‚s vers d'autres tribus, comme indiqu‚ sur le tableau dans cette zone de l'‚cran.
+END
+
+;--------------------
+; StatusScreen (winning)  state: 7
+
+ENDGPLAYER
+Cette zone indique les performances de votre tribu au cours de la partie que vous venez de terminer.
+END
+
+ENDGTEXT
+Cette zone vous permet d'imprimer des informations sur la partie que vous venez de terminer.
+END
+
+ENDGNONP0
+Cette zone vous indique le score d'un autre joueur.
+END
+
+ENDGNONP1
+Cette zone vous indique le score d'un autre joueur.
+END
+
+ENDGNONP2
+Cette zone vous indique le score d'un autre joueur.
+END
+
+;------------------------------------------
+; unknown
+;------------------------------------------
+; note this is really 'move' currently
+TOGDAMAGE
+Le bouton D‚placer sert … d‚placer un bƒtiment. Tous les bƒtiments, except‚ les n‚buliseurs de Tone, peuvent ˆtre d‚plac‚s, mais n‚cessitent des ressources disponibles. Choisissez le bƒtiment que vous d‚sirez d‚placer, puis appuyez sur ce bouton. S‚lectionnez alors une nouvelle zone et appuyez … nouveau pour valider le d‚placement.
+END
+
+IWFltInfo
+Cette zone affiche des informations vitales sur le Flotteur ou le monstre s‚lectionn‚.
+END
+
+BC_GenInfo
+Ce bouton vous permet d'afficher des informations g‚n‚rales sur le Refuge du Clan et votre population.
+END
+
+BC_Move
+END
+
+IWBuild
+END
+
+IWConstructInfo
+Cette zone (actuellement vide) affiche des informations sur un bƒtiment s‚lectionn‚ dans la liste de gauche, afin que vous en appreniez davantage avant de le construire.
+END
+
+IWTextInfo
+Cette zone affiche souvent des textes concernant la zone, l'objet ou le bƒtiment s‚lectionn‚.
+END
+
+IWTextInfo2
+Cette zone affiche souvent des textes concernant la zone, l'objet ou le bƒtiment s‚lectionn‚e.
+END
+
+//**********************************************************************
+// The following was added after 7/7/97
+// This corresponds to after version 0.80T
+// TRANSLATION NEW
+
+BC_UpgSpread
+Ce bouton vous permet de modifier un n‚buliseur de Tone construit par une autre tribu afin qu'il alimente aussi votre tribu en Tone.
+END
+
+ENDTEXT

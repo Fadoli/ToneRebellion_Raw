@@ -1,0 +1,69 @@
+NUM_LOCATIONS 62
+
+
+;Number    X     Y   Type     Special_value
+
+ 0       128   160   tone     0
+ 1       878   163   tone     0
+ 2       290   153   bridge   0
+ 3      2426   200   bridge   0
+ 4       211   199   mdpad    0
+ 5      2525   264   mdpad    0
+ 6       584   122   mdpad    0
+ 7       379   139   smpad    0
+ 8       487   173   smpad    0
+ 9      1683   292   smpad    0
+10      2284   201   smpad    0
+11      2203   298   smpad    0
+12      1855   204   smpad    0
+13      1970   212   smpad    0
+14        49   260   lgpad    0
+15      2376   283   lgpad    0
+16      1768   164   lgpad    0
+17        35   194   mdpad    0
+18       442    86   smpad    0
+19       206    97   smpad    0
+20       539   213   smpad    0
+21      2020   300   mdpad    0
+22       120   230   smpad    0
+23      1801   295   mdpad    0
+24      2197   246   mdpad    0
+25      2053   242   mdpad    0
+26      2254   280   smpad    0
+27      1854   267   smpad    0
+28       351   231   feature  0
+29       297   266   feattrig 0
+30       368   275   feattrig 1
+31      2443   255   smpad    0
+32      2325   243   smpad    0
+33      1651   204   tone     0
+34      2121   275   tone     0
+35      1575   246   mdpad    0
+36      1493   218   smpad    0
+37       927   223   smpad    0
+38      1026   283   smpad    0
+39      1136   213   mdpad    0
+40      1310   207   lgpad    0
+41      1366   156   smpad    0
+42      1226   149   mdpad    0
+43      1173   239   smpad    0
+44      1275   271   smpad    0
+45      1377   266   smpad    0
+46      1425   219   mdpad    0
+47       805   192   smpad    0
+48       838   244   mdpad    0
+49       770   247   smpad    0
+50       675   206   lgpad    0
+51       714   283   smpad    0
+52       571   289   mdpad    0
+53      1033   200   smpad    0
+54      1108   290   mdpad    0
+55      1463   296   smpad    0
+56      1626   283   smpad    0
+57       956   180   smpad    0
+58       329    99   mdpad    0
+59      1913   182   smpad    0
+60      2086   304   smpad    0
+61      2155   306   smpad    0
+
+

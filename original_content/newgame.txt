@@ -1,0 +1,71 @@
+PROTECT0
+Tarks--les Protecteurs : Ces Flotteurs ont surv‚cu sur la nouvelle Œle de 
+Tarzus, et subirent l'influence du monde physique alors qu'ils sommeillaient. Bien plus tard,
+les Tarks sont sortis de leur torpeur, vivant dans le monde physique exclusivement, bien que de rares Tarks connaissent l'existence du royaume surnaturel.
+La Confr‚rie du Tentacule a vu le jour au d‚but de l'histoire des Tarks pour combattre le L‚viathan.
+END
+
+PROTECT1
+Ils refoulŠrent le L‚viathan jusqu'au dernier. On pensait 
+les croyances de cette ancienne confr‚rie disparues, mais la d‚couverte
+du Livre de l'Initi‚ a redonn‚ aux Tarks l'espoir de la faire renaŒtre.
+Un Tark enracin‚ dans le monde physique peut contrecarrer un
+pouvoir surnaturel. Les cr‚atures du royaume naturel possŠdent
+un pouvoir redoutable et incompr‚hensible sur ces mˆmes Tarks.
+END
+
+SEEKER0
+Zygons--les Chercheurs : Groupe de Flotteurs explorateurs ayant surv‚cu
+dans les Grottes de cristal. L'immense pouvoir des grottes
+les a m‚tamorphos‚s dans leur sommeil. Les Zygons vivent … pr‚sent dans le 
+royaume surnaturel, bien que de rares chercheurs apprennent 
+… transcender le surnaturel et … migrer dans le royaume ‚th‚r‚. 
+Le Clan de Sol existe depuis longtemps au sein de la tribu Zygon :
+END
+
+SEEKER1
+c'est une soci‚t‚ secrŠte de savants alchimistes qui veulent percer 
+… jour les mystŠres du L‚viathan et le d‚truire. Les descendants du Clan 
+de Sol vivent parmi les Zygons, mais conservent pr‚cieusement les objets
+magiques cr‚‚s par le clan pour combattre le L‚viathan. Les d‚fenses
+surnaturelles diminuent … peine la force physique. Cependant, elles
+ont le pouvoir de volatiliser les cr‚atures ‚th‚r‚es.
+END
+
+MYSTIC0
+C‚ph‚ens--les Mystiques : Flotteurs engloutis par la mer C‚ph‚enne
+lors du Chaos. La vie sous-marine les a m‚tamorphos‚s,
+les plongeant dans les transes de la mort pendant des mill‚naires. 
+Ils ont recommenc‚ … vivre aprŠs leur immersion dans la Mer ‚th‚r‚e.
+Ils sont alors devenus des C‚ph‚ens, dont la conscience est tourn‚e vers
+le royaume ‚th‚r‚. Il arrive qu'un C‚ph‚en quitte la rˆverie vagabonde li‚e
+… son royaume
+END
+
+MYSTIC1
+pour succomber au charme du royaume naturel.
+Des forces surnaturelles brutales peuvent briser l'‚quilibre du royaume 
+‚th‚r‚, mais l'‚th‚r‚ est craint mˆme par les cr‚atures naturelles puissantes. 
+Les F‚es du requiem sont des guerriŠres ‚th‚r‚es, des C‚ph‚ennes turbulentes
+n‚es sous une rare conjonction d'‚toiles. Seuls les signaux ad‚quats r‚veilleront
+la m‚moire ethnique de ceux qui portent leur marque.
+END
+
+LIFE0
+Dyla--les Porteurs de vie : certains se sont enfuis dans la forˆt de Pangir
+alors que le Chaos faisait rage. Ils y ont d‚couvert un endroit strat‚gique
+que mˆme le L‚viathan ne peut atteindre. Ils y ont hibern‚ et sont devenus 
+les Dyla, Flotteurs du royaume naturel. La tradition veut qu'un Dylus
+soit ‚lu pour quitter le royaume naturel et se m‚tamorphoser, en r‚veillant
+le gŠne r‚cessif de sa nature physique pour d‚fendre la tribu
+END
+
+LIFE1
+de ses pires ennemis : les spectres ‚th‚r‚s de l'or‚e de la forˆt. Les ‚th‚r‚s possŠdent
+un terrible pouvoir sur les cr‚atures naturelles, tout comme le monde de la nature domine 
+le monde physique. Les Sorciers Invocateurs sont des Dyla qui respectent la vie et les cr‚atures r‚pondent … leurs voeux 
+… de grandes distances. Ils sont assimil‚s … une l‚gende, et leurs pouvoirs … l'encontre du L‚viathan … des balivernes.
+END
+
+
+ENDTEXT

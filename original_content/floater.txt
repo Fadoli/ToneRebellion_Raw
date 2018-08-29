@@ -1,0 +1,121 @@
+;-------------------------------
+; 1. draw ID
+; 2. attack range (0 for close attack)
+; 3. attack realm (0=phy, 3=nat)
+; 4. hit points
+; 5. max attack points
+; 6. attack strength
+; 7. speed
+
+;1       2   3 4  5  6 7
+;-----------------
+; Protectors
+;
+; train1 = Brotherhood of the Tentacle
+; train2 = Gazers
+; train3 = League of the Star
+;
+;
+
+pwork    0   0 3  0  0  3 ; Worker
+ptrain1  0   0 17 19 5  3 ; Train1
+ptrain2  145 1 14 17 4  3 ; Train2
+ptrain3  120 0 15 19 5  4 ; Train3
+pwiz1    0   0 16 10 3  3 ; Wiz1
+ptrain3  0   0 9  10 0  2 ; Wiz2
+ptrain3  0   0 9  10 0  2 ; Spec1
+ptrain3  0   0 9  10 0  2 ; Spec2
+ascend   0   0 6  10 0  2 ; Ascended
+
+;-----------------
+; Seekers
+;
+; train1 = Clan of Sol
+; train2 = Spirit Callers
+; train3 = Guild of Light Shaping
+;
+;
+
+swork    0   1 3  0  0  3 ; Worker
+strain1  160 1 13 13 5  4 ; Train1
+strain2  0   2 15 15 5  3 ; Train2
+strain3  0   1 14 14 6  4 ; Train3
+sspell1  0   1 14 10 2  4 ; Wiz1
+sspell2  0   1 9  10 0  3 ; Wiz2
+strain2  0   1 9  10 0  3 ; Spec1
+strain2  0   1 9  10 0  3 ; Spec2
+ascend   0   1 6  10 0  2 ; Ascended
+
+;-----------------
+; Mystics
+;
+; train1 = Banshees
+; train2 = Stormers
+; train3 = Astral Travelers
+;
+;
+
+mwork    0   2 3  0  0  3 ; Worker
+mtrain1  0   2 14 14 5  4 ; Train1
+mtrain2  175 3 15 16 3  4 ; Train2
+mtrain3  195 2 13 16 4  3 ; Train3
+mspell1  0   2 15 10 2  4 ; Wiz1
+mspell2  0   2 9  10 0  3 ; Wiz2
+mtrain1  0   2 9  10 0  3 ; Spec1
+mtrain1  0   2 9  10 0  3 ; Spec2
+ascend   0   2 6  10 0  2 ; Ascended
+
+;-----------------
+; Lifegivers
+;
+; train1 = Summoners
+; train2 = Den of the Beast
+; train3 = Wind Shapers
+;
+;
+
+lwork    0   3 3  0  0  3 ; Worker
+ltrain1  230 3 13 16 5  3 ; Train1
+ltrain2  0   0 19 17 4  3 ; Train2
+ltrain3  0   3 16 18 3  4 ; Train3
+lspell1  0   3 16 12 2  3 ; Wiz1
+ltrain2  0   3 9  10 0  2 ; Wiz2
+ltrain2  0   3 9  10 0  2 ; Spec1
+ltrain2  0   3 9  10 0  2 ; Spec2
+ascend   0   3 6  10 0  2 ; Ascended
+
+;-----------------
+; Leviathan
+;
+; vpc attack cycle = 3 frames
+; vpr attack cycle = 20 frames
+; vsc attack cycle = 6 frames
+; vsr attack cycle = 7 frames
+; vec attack cycle = 16 frames
+; ver attack cycle = 10 frames
+; vnc attack cycle = 6 frames
+; vnr attack cycle = 48 frames
+
+;vspore   0   0 4  0  0  1 ; Spores
+;vpc      0   0 16 10 10 2 ; Lev1
+;vpr      130 0 11 10 5  2 ; Lev2
+;vsc      0   1 13 10 9  3 ; Lev3
+;vsr      140 1 8  10 6  3 ; Lev4
+;vec      0   2 14 10 9  4 ; Lev5
+;ver      150 2 9  10 4  3 ; Lev6
+;vnc      0   3 15 10 8  3 ; Lev7
+;vnr      160 3 10 10 4  2 ; Lev8
+
+; balanced for animation length:
+
+vspore   0   0 4  0  0  1 ; Spores
+vpc      0   0 16 10 4  2 ; Lev1
+vpr      130 0 11 10 4  2 ; Lev2
+vsc      0   1 13 10 3  3 ; Lev3
+vsr      140 1 8  10 3  3 ; Lev4
+vec      0   2 14 10 5  4 ; Lev5
+ver      150 2 9  10 4  3 ; Lev6
+vnc      0   3 15 10 3  3 ; Lev7
+vnr      160 3 10 10 5  2 ; Lev8
+
+

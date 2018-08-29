@@ -1,0 +1,71 @@
+NUM_LOCATIONS 65
+
+
+;Number    X     Y   Type     Special_value
+
+ 0       226   279   tone     0
+ 1       877   251   tone     0
+ 2      1390   267   tone     0
+ 3      1369   112   bridge   0
+ 4       590   295   lgpad    0
+ 5      1600   238   lgpad    0
+ 6      1021   287   lgpad    0
+ 7      2241   209   lgpad    0
+ 8        61   280   mdpad    0
+ 9       512   272   mdpad    0
+10       777   245   mdpad    0
+11      1585   142   mdpad    0
+12      2517   293   mdpad    0
+13      2300   265   mdpad    0
+14      1898   263   mdpad    0
+15      1997   306   mdpad    0
+16       115   254   mdpad    0
+17       153   296   smpad    0
+18        47   198   smpad    0
+19       289   303   smpad    0
+20       402   286   smpad    0
+21       349   305   smpad    0
+22       659   295   smpad    0
+23       649   210   smpad    0
+24       554   166   smpad    0
+25       701   163   smpad    0
+26      1022   203   smpad    0
+27      1102   201   smpad    0
+28      1262   235   smpad    0
+29      1202   116   smpad    0
+30      1548   292   smpad    0
+31      1774   190   smpad    0
+32      1854   296   smpad    0
+33      1937   302   smpad    0
+34      1770   305   smpad    0
+35      1684   243   smpad    0
+36      2272   298   smpad    0
+37      2154   304   smpad    0
+38      2027   227   smpad    0
+39      1940   176   smpad    0
+40      1886   200   smpad    0
+41      2385   168   smpad    0
+42      2433   305   smpad    0
+43      2466   227   smpad    0
+44      2325   227   smpad    0
+45      1073   122   smpad    0
+46      1251   153   smpad    0
+47      1474   150   smpad    0
+48      1152   255   smpad    0
+49       844   163   smpad    0
+50       932   298   mdpad    0
+51       229   206   feature  0
+52        96    30   feattrig 0
+53       342    34   feattrig 1
+54       318   278   mdpad    0
+55        77   229   smpad    0
+56       376   230   smpad    0
+57       454   203   mdpad    0
+58      1140   113   smpad    0
+59      1213   241   smpad    0
+60      1324   294   smpad    0
+61      1458   296   mdpad    0
+62      2124   233   tone     0
+63      1937   125   bridge   0
+64      2028   117   mdpad    0
+

@@ -1,0 +1,273 @@
+;-------------------------------------------
+; Interface Shapes  
+
+data\smisle.shp     SMISLE    
+data\newback.shp    NEWBACK
+data\mapback.shp    MAPBACK
+data\isletmp0.shp   ISLETEMP
+data\loadsav0.shp   LOADSAVE    ; loadsave template
+data\titscrn.shp    TITSCRN
+data\slidwin0.shp   SLIDEWIN    ; pulldown window shape
+data\lilmap.shp     LILMAP      ; defender map artwork for each isle
+data\mainbut0.shp   mainbutt    ; the main buttons on the islewin
+data\trainbut.shp   BLDCMD      ; building command buttons
+data\TRADE.shp   TRADE      ; building command buttons
+data\spellbut.shp   SPELLBUT    ; spell buttons
+data\ngrealms.shp   NGREALMS    ; large realm artwork for newgame
+data\smrealms.shp   SMREALMS    ; ** one of this or the next will go
+data\fltinfo.shp    FLTINFO     ; icons over floaters heads for info
+data\glyphs.shp     GLYPHS      ; tribe symbols for newgame screen
+data\bigfloat.shp   BIGFLOAT    ; new game screen oversized floaters
+data\ngmeintr.shp   NEWBUTT     ; button area for newgame screen
+data\temphol0.shp   TEMPHOLE    ; backdrop art for interface in islewin
+data\toneanim.shp   TONEANIM    ; for tone utilization display
+data\glinv.shp      GLINV       ; GLYPH inventory display
+data\end.shp        PARADISE    ; glowing isle for endgame
+data\endglw.shp     PARAGLOW    ; effect for glowing isle endgame
+data\statshp.shp    STATSHP     ; TEMPORARY place holder shape
+data\levidif.shp    LEVIDIFF    ; difficulty artwork - newgame
+data\scroll.shp     SCROLL      ; scroll bars for task list
+data\thbutt.shp     THBUTT      ; move,stockpile,upgrade buttons
+data\thall0.shp     THALL       ; town hall command buttons
+data\endtem0.shp    ENDTEMP     ; endgame template/background
+data\endgame.shp    ENDGAME     ; endgame shapes
+data\trainb.shp     TRAINB      ; training building buttons
+data\diploma.shp    DIPLOMA     ; shapes for diplomacy window
+data\isrealm.shp    ISREALM     ; shapes for realm display
+data\upgrade.shp    UPGRADE     ; shapes for upgrade button
+data\repair.shp     REPAIR      ; repair button
+data\taskicon.shp   TASKICON    ; icons for task list
+data\bldgage.shp    BLDGAGE     ; damage gage for blds
+data\bildicon.shp   BILDICON    ; dots for trainbld numbering
+data\scarrow0.shp   SCARROW     ; construct window arrow
+data\prior.shp      PRIOR       ; task priority + kill buttons
+data\clip0.shp      CLIP        ; clipboard selection shapes
+data\pause.shp      PAUSE       ; art for pause indicator 8.16.97
+data\lstitle.shp    LSTITLE     ; art for load/save indicatrs 8.16.97
+data\acticon.shp    ACTICON     ; activation icons 8.18.97
+
+;-------------------------------------------
+; Protector Shapes 
+
+data\pbod.shp       PBOD        ; new bodies
+data\plegs.shp      PLEGS       ; new legs
+
+
+data\P-BLDTON.SHP   P-BLDTON
+data\P-CRYTON.SHP   P-CRYTON
+data\P-ENRICH.SHP   P-ENRICH
+data\P-EXTEND.SHP   P-EXTEND
+data\P-HALL.SHP     P-HALL
+data\P-HATCH.SHP    P-HATCH
+data\P-MAGTON.SHP   P-MAGTON
+data\P-SPEC1.SHP    P-SPEC1
+data\P-SPEC2.SHP    P-SPEC2
+data\P-SPEC3.SHP    P-SPEC3
+data\P-SPEC4.SHP    P-SPEC4
+data\P-SPELL1.SHP   P-SPELL1
+data\P-TRAIN1.SHP   P-TRAIN1
+data\P-TRAIN2.SHP   P-TRAIN2
+data\P-TRAIN3.SHP   P-TRAIN3
+
+data\pt1b.shp       PT1B        ; Training 1 (PC) bullets
+data\pt2ball.shp    PT2B
+data\pt3b.shp       PT3B
+
+data\pt2cast.shp    PT2CAST
+
+;-------------------------------------------
+; Mystic Shapes    
+
+data\mbod.shp       MBOD        ; new bodies
+data\mlegs.shp      MLEGS       ; new legs
+
+
+data\M-BLDTON.SHP   M-BLDTON
+data\M-CRYTON.SHP   M-CRYTON
+data\M-ENRICH.SHP   M-ENRICH
+data\M-EXTEND.SHP   M-EXTEND
+data\M-HALL.SHP     M-HALL
+data\M-HATCH.SHP    M-HATCH
+data\M-MAGTON.SHP   M-MAGTON
+data\M-SPEC1.SHP    M-SPEC1
+data\M-SPEC3.SHP    M-SPEC3
+data\M-SPELL1.SHP   M-SPELL1
+data\M-SPELL2.SHP   M-SPELL2
+data\M-TRAIN1.SHP   M-TRAIN1
+data\M-TRAIN2.SHP   M-TRAIN2
+data\M-TRAIN3.SHP   M-TRAIN3
+
+data\m-fxtr1.shp    M-FXTR1
+data\m-fxtr2.shp    M-FXTR2
+data\m-fxtr2c.shp    M-FXTR2C	;casting of lightning
+data\m-fxtr3.shp    M-FXTR3
+
+
+;-------------------------------------------
+; Seeker Shapes    
+
+data\sbod.shp       SBOD        ; new bodies
+data\slegs.shp      SLEGS       ; new legs
+data\seek.shp       SEEK        ; old animated floaters
+
+data\S-HALL.SHP     S-HALL
+data\S-TRAIN1.SHP   S-TRAIN1
+data\S-TRAIN2.SHP   S-TRAIN2
+data\S-TRAIN3.SHP   S-TRAIN3
+data\S-SPELL1.SHP   S-SPELL1
+data\S-SPELL2.SHP   S-SPELL2
+data\ST1B.SHP	    ST1B
+data\ST1C.SHP	    ST1C
+data\ST2C.SHP       ST2C
+data\ST2E.SHP	    ST2E
+data\S3C.SHP	    S3C
+
+;-------------------------------------------
+; Lifegiver Shapes 
+
+data\lbod.shp       LBOD        ; new bodies
+data\llegs.shp      LLEGS       ; new legs
+data\life.shp       LIFE        ; old animated floaters
+
+data\L-TRAIN1.SHP   L-TRAIN1
+data\L-TRAIN2.SHP   L-TRAIN2
+data\L-TRAIN3.SHP   L-TRAIN3
+data\L-HALL.SHP     L-HALL
+data\L-SPELL1.SHP     L-SPELL1
+data\L-SPEC1.SHP     L-SPEC1
+
+data\L-FXTR1.SHP   L-FXTR1    		;train 1 projectile
+data\L-FXTR3.SHP   L-FXTR3    		;train 3 projectile
+
+;-------------------------------------------
+; Leviathan Shapes 
+
+data\v-spore.shp    V-SPORE     ; animated spores
+data\vbod.shp       VBOD        ; new bodies
+data\vpclegs.shp    VPCLEGS     ; new legs physical close
+data\vprlegs.shp    VPRLEGS     ; new legs physical range
+data\vnclegs.shp    VNCLEGS     ; new legs natural close
+data\vnrlegs.shp    VNRLEGS     ; new legs natural range
+data\veclegs.shp    VECLEGS     ; new legs ethereal close
+data\verlegs.shp    VERLEGS     ; new legs ethereal range
+data\vsclegs.shp    VSCLEGS     ; new legs supernatural close
+data\vsrlegs.shp    VSRLEGS     ; new legs supernatural range
+
+data\v-prfx.shp     V-PRFX      ; pr attack effect
+data\v-msrc.shp     V-MSRC      ; sr attack effect
+data\v-merc.shp     V-MERC      ; er attack effect
+data\v-mecc.shp     V-MEcC      ; ec attack effect
+data\v-mnrb.shp     V-MNRB      ; nr attack effect
+data\v-merb.shp     V-MERB      ; er attack effect
+
+
+data\V-ATTCK1.SHP   V-ATTCK1
+data\V-ATTCK2.SHP   V-ATTCK2
+data\V-ATTCK3.SHP   V-ATTCK3
+data\V-ATTCK4.SHP   V-ATTCK4
+data\V-ATTCK5.SHP   V-ATTCK5
+data\V-ATTCK6.SHP   V-ATTCK6
+data\V-AT6FX.SHP    V-AT6FX	;lightning similar to mystics
+data\V-ENCH1.SHP    V-ENCH1
+data\V-ENCH2.SHP    V-ENCH2
+data\V-ENCH3.SHP    V-ENCH3
+data\V-ENCH4.SHP    V-ENCH4
+data\V-ENCH5.SHP    V-ENCH5
+data\V-ENCH6.SHP    V-ENCH6
+data\V-ESUPP.SHP    V-ESUPP
+data\V-SUPFX.SHP    V-SUPFX	;this is to be used with v-psupp and v-esupp
+data\V-NSUPP.SHP    V-NSUPP
+data\V-NSUPFX.SHP   V-NSUPFX
+data\V-SSUPP.SHP    V-SSUPP
+data\V-POWER1.SHP   V-POWER1
+data\V-POWER2.SHP   V-POWER2
+data\V-POWER3.SHP   V-POWER3
+data\V-PSUPP.SHP    V-PSUPP
+data\V-ROD1.SHP     V-ROD1
+data\V-ROD2.SHP     V-ROD2
+data\V-ROD3.SHP     V-ROD3
+data\V-SHOT1.SHP    V-SHOT1
+data\V-SHOT1B.SHP   V-SHOT1B	;Bullet for V-Shot1
+data\V-SHOT2.SHP    V-SHOT2
+data\V-SHT2FX.SHP   V-SHT2FX
+data\V-SHOT3.SHP    V-SHOT3
+data\V-INFECT.SHP   V-INFECT
+data\spears.shp     SPEARS
+
+;-------------------------------------------
+; Spell Shapes
+
+data\pcast.shp      PCAST
+data\scast.shp      SCAST
+data\mcast.shp      MCAST
+data\lcast.shp      LCAST
+
+data\spl03.shp      SPL03
+data\spl04.shp      SPL04
+data\spl5.shp       SPL5
+data\spl6e.shp      SPL6E
+data\spl7.shp       SPL7
+data\spl8b.shp      SPL8B
+data\spl9b.shp      SPL9B
+data\spl10.shp      SPL10
+data\spl11.shp      SPL11
+data\spl12b.shp     SPL12B
+data\spl13.shp      SPL13
+data\spl14.shp      SPL14
+data\spl15.shp      SPL15
+data\spl16.shp      SPL16
+data\spl17c.shp     SPL17C
+data\spl18c.shp     SPL18C
+data\spl19e.shp     SPL19E
+data\spl20.shp      SPL20
+data\spl21.shp      SPL21
+data\spl22.shp      SPL22
+
+data\acast.shp      ACAST
+
+data\join1.shp      JOIN1
+data\join2.shp      JOIN2
+data\join3.shp      JOIN3
+data\join4.shp      JOIN4
+data\join5.shp      JOIN5
+data\join6.shp      JOIN6
+
+
+;-------------------------------------------
+; Misc/General Game Shapes
+
+data\alegs.shp      ALEGS
+
+data\bildtone.shp   BILDTONE
+data\magctone.shp   MAGCTONE
+data\tonecrys.shp   TONECRYS
+
+data\hit.shp        HIT
+data\bul.shp        BUL
+data\key.shp        KEY
+data\die.shp        DIE
+
+data\tone.shp       POOL
+data\pad.shp        PADS
+data\solidpad.shp   SOLIDPAD
+data\crumble.shp    CRUMBLE
+
+data\br-trg01.shp   BR-TRG01
+data\alltrigs.shp   TRIGGERS
+
+data\phy.shp        PHY
+data\sup.shp        SUP
+data\erealm.shp     EREALM
+data\nrealm.shp     NREALM
+
+;-------------------------------------------
+; Old/Temp Building/Island Shapes - NOT USED EVENTUALLY
+
+;-------------------------------------------
+; Island EDITOR Shapes
+
+data\padmap.shp     PADMAP
+
+
+
+

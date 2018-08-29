@@ -1,0 +1,129 @@
+// Info about effects buffers - 
+// these are tuned to the specific effects we have
+4           // 4 sizes of buffer
+1 3000      // 1 buf, 3k
+2 16284     // 2 bufs 16k
+4 32768     // 4 bufs 32k
+8 65536     // 8 bufs 64k
+
+// List of all id,filename of sounds in game (in order)
+
+//tone2/audio/tone/sfx/neno/ver2
+
+effect  bhood       data\bhood.wav
+effect  gazecast    data\gazecast.wav
+effect  gazer       data\gazer.wav
+effect  ninja       data\ninja.wav
+effect  banshee     data\banshee.wav
+effect  stormer     data\stormer.wav
+effect  astral      data\astral.wav
+effect  ltngcast    data\ltngcast.wav
+effect  solcast     data\solcast.wav
+effect  sol         data\sol.wav
+effect  spiritcast  data\spiritca.wav
+effect  lightcast   data\lightcas.wav
+effect  summons     data\summons.wav
+effect  shrink      data\shrink.wav
+effect  lifecast    data\lifecast.wav
+effect  vprb        data\vprb.wav
+effect  verc        data\verc.wav
+effect  vecc        data\vecc.wav
+effect  verb        data\verb.wav
+effect  vsrc        data\vsrc.wav
+effect  vsrb        data\vsrb.wav
+effect  vnrb        data\vnrb.wav
+effect  vsht1b      data\vsht1b.wav
+effect  vsht2b      data\vsht2b.wav
+effect  devil       data\devil.wav
+effect  pspell      data\pspell.wav
+effect  sspell      data\sspell.wav
+effect  mspell      data\mspell.wav
+effect  lspell      data\lspell.wav
+effect  healing     data\healing.wav
+effect  longshot    data\longshot.wav
+effect  blastwb     data\blastwb.wav
+effect  destsupp    data\destsupp.wav
+effect  killbeas    data\killbeas.wav
+effect  fltarmor    data\fltarmor.wav
+effect  hyperheal   data\hyprheal.wav
+effect  upgrade     data\upgrade.wav
+effect  farobt      data\farobt.wav
+effect  stockup     data\stockup.wav
+effect  freezelb    data\freezelb.wav
+effect  fastprod    data\fastprod.wav
+effect  buildton    data\buildton.wav
+effect  revplot     data\revplot.wav
+effect  repair      data\repair.wav
+effect  bldarmor    data\bldarmor.wav
+effect  fastflt     data\fastflt.wav
+effect  locprot     data\locprot.wav
+effect  sacrif      data\sacrif.wav
+effect  freezesc    data\freezesc.wav
+effect  paralyze    data\paralyze.wav
+effect  prealm      data\prealm.wav
+effect  srealm      data\srealm.wav
+effect  erealm      data\erealm.wav
+effect  nrealm      data\nrealm.wav
+effect  ascend      data\ascend.wav
+//effect  join1       data\join1.wav
+//effect  join2       data\join2.wav
+//effect  join3       data\join3.wav
+//effect  join4       data\join4.wav
+//effect  join5       data\join5.wav
+//effect  join6       data\join6.wav
+effect  fltbirth    data\fltbirth.wav
+effect  levbirth    data\levbirth.wav
+effect  fltdeath    data\fltdeath.wav
+effect  levdeath    data\levdeath.wav
+effect  fltbuild    data\fltbuild.wav
+effect  levbuild    data\levbuild.wav
+effect  bridge      data\bridge.wav
+
+//Mystery SFX
+
+effect  bullet      data\bullet.wav
+effect  button      data\button.wav
+effect  blowup      data\blowup.wav
+
+//Additional Game Event Sounds
+
+effect  crumble     data\crumble.wav
+//effect  builupg     data\buildupg.wav
+//effect  floatadv    data\floatadv.wav
+//effect  levibond    data\levibond.wav
+
+//Activation Feature SFX
+
+effect  cephean     data\cephean.wav
+effect  onsama      data\onsama.wav
+effect  crystal     data\crystal.wav
+effect  dreenbog    data\dreenbog.wav
+effect  tarzus      data\tarzus.wav
+effect  tonal       data\tonal.wav
+effect  pangir      data\pangir.wav
+effect  palomon     data\palomon.wav
+effect  frenza      data\frenza.wav
+effect  lethe       data\lethe.wav
+effect  mymus       data\mymus.wav
+effect  core        data\core.wav
+effect  morfid      data\morfid.wav
+effect  norasten    data\norasten.wav
+
+tune    tribe0      protect.wav
+tune    tribe1      seekers.wav
+tune    tribe2      mystics.wav
+tune    tribe3      lifegive.wav
+tune    act1        act4.wav
+tune    act2        act3.wav
+tune    act3        act2.wav
+tune    act4        act1.wav
+tune    start       start.wav
+tune    ambi1       ambient1.wav
+tune    ambi2       ambient2.wav
+tune    ambi3       ambient3.wav
+tune    ambi4       ambient4.wav
+tune    levi        leviatan.wav
+tune    winend      winner.wav
+tune    loosend     losend.wav
+
+

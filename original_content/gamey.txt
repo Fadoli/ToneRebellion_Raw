@@ -1,0 +1,401 @@
+NEWGAME0
+- Les Tarks -
+END
+
+NEWGAME1
+- Les Zygons -
+END
+
+NEWGAME2
+- Les C‚ph‚ens -
+END
+
+NEWGAME3
+- Les Dyla -
+END
+
+NEWGAME4
+- Niveau de difficult‚ -
+END
+
+NEWGAME5
+- Dimensions de l'univers -
+END
+
+NEWGAME6
+- Sommaire -
+END
+
+NEWGAME7
+- Commencer la partie -
+END
+
+CRYPTIC0
+Cherchez les Glyphes.
+END
+
+CRYPTIC1
+Le L‚viathan r“de.
+END
+
+CRYPTIC2
+Lib‚rez la lumiŠre.
+END
+
+CRYPTIC3
+Lancez les ponts.
+END
+
+CRYPTIC4
+Vous devez arrˆter les Ombres.
+END
+
+CRYPTIC5
+Cherchez les Glyphes.
+END
+
+CRYPTIC6
+Les ombres naissent de la lumiŠre.
+END
+
+CRYPTIC7
+Respectez l'‚quilibre...
+END
+
+CRYPTIC8
+La lumiŠre s‚pare l'avant de l'aprŠs.
+END
+
+CRYPTIC9
+Les rˆves oubli‚s sont facteurs d'unit‚.
+END
+
+CRYPTIC10
+Cherchez les Glyphes.
+END
+
+CRYPTIC11
+Le L‚viathan r“de.
+END
+
+CRYPTIC12
+Lib‚rez la lumiŠre.
+END
+
+CRYPTIC13
+Lancez les ponts.
+END
+
+CRYPTIC14
+Tone est issu d'Ascendancy.
+END
+
+CRYPTIC15
+Rien de tout ceci n'est r‚el.
+END
+
+CRYPTIC16
+Il vous suffit d'exister, et le Tone coulera.
+END
+
+CRYPTIC17
+LIb‚rez la lumiŠre.
+END
+
+CRYPTIC18
+Lancez les ponts.
+END
+
+CRYPTIC19
+Vous devez arrˆter les ombres.
+END
+
+CRYPTIC20
+Vous ne devez pas regarder la t‚l‚.
+END
+
+
+BC0
+Activer ou d‚sactiver le bƒtiment
+END
+
+BC1
+D‚placer le bƒtiment
+END
+
+BC2
+Am‚liorer le bƒtiment
+END
+
+BC3
+R‚parer le bƒtiment
+END
+
+
+BC4
+R‚cup‚rer l'artefact
+END
+
+
+BC5
+D‚p“t de Tone cristallin
+END
+
+BC6
+D‚p“t de Tone magique
+END
+
+BC7
+R‚serve de Tone structurel
+END
+
+BC8
+R‚serve de Tone cristallin
+END
+
+BC9
+R‚serve de Tone magique
+END
+
+
+BC10
+Informations G‚n‚rales
+END
+
+BC11
+Examiner vos artefacts
+END
+
+BC12
+Examiner vos connaissances
+END
+
+BC13
+Aider une autre tribu
+END
+
+BC14
+Options Diplomatiques
+END
+
+
+BC15
+Retour Flotteurs … leur base
+END
+
+BC16
+Attaquer un monstre 
+END
+
+BC17
+Attaquer une zone
+END
+
+BC18
+D‚fendre un Flotteur 
+END
+
+BC19
+D‚fendre une zone
+END
+
+SURPFLOW
+Surplus de Tone
+END
+
+POPSTR
+Pop
+END
+
+WORKSTR
+Ouv
+END
+
+WORKER
+Ouvrier
+END
+
+AWAKE
+Le Sage
+END
+
+LEVEL
+Niveau
+END
+
+STRENGTH
+Puissance
+END
+
+HITS
+Coups
+END
+
+EXP
+Exp
+END
+
+CHARGE
+Charge
+END
+
+CONSTR
+Construction
+END
+
+REPAIR
+R‚paration
+END
+
+UPGRADE
+Am‚lioration
+END
+
+SUPPLY
+livraison de Tone
+END
+
+STOCK
+R‚serve
+END
+
+DARTIFACT
+Amener un artefact
+END
+
+OARTIFACT
+R‚cup‚rer un artefact
+END
+
+//TRANSLATIONCHANGED  (the id changed)
+TNORM
+Priorit‚ Normale
+END
+
+//TRANSLATIONCHANGED (the id changed)
+THIGH
+Priorit‚ Haute
+END
+
+//TRANSLATIONCHANGED  (the id changed)
+TEXCL
+Priorit‚ Absolue
+END
+
+//TRANSLATIONCHANGED  (the id changed)
+TKILL
+Annuler cet ordre
+END
+
+NOTASKS
+Aucune tƒche en cours
+END
+
+BLDCONST
+Construction de Bƒtiment
+END
+
+DELIVER
+D‚placer vers une zone
+END
+
+RETRIEVE
+R‚cup‚rer sur la zone
+END
+
+STONE
+Tone structurel
+END
+
+CTONE
+Tone cristallin
+END
+
+MTONE
+Tone magique
+END
+
+
+ARTIFACT
+Artefact
+END
+
+NORM
+Normale
+END
+
+HIGH
+Haute
+END
+
+CBRIDGE
+- Pont non ouvert -
+END
+
+INFECT
+- Bassin de Tone contamin‚ -
+END
+
+BEASTI
+- Bestiaire du L‚viathan -
+END
+
+PRIMED
+- Bassin de Tone r‚g‚n‚r‚ -
+END
+
+UNPRIM
+- Bassin de Tone -
+END
+
+MYSTLOC
+- Site mystique -
+END
+
+NOART
+- Aucun artefact r‚cup‚r‚ -
+END
+
+NOKNOW
+- Aucune connaissance acquise -
+END
+
+TRZERO
+Annuler
+END
+
+TRDOIT
+Transf‚rer
+END
+
+
+//**********************************************************************
+// The following entries were added after 7/7/97 
+// This corresponds to after version 0.80T
+
+//TRANSLATIONNEW
+UPGSPREAD
+Multi-n‚buliseur
+END
+
+//TRANSLATIONNEW
+BC20
+Am‚liorer n‚buliseur de Tone
+END
+
+//TRANSLATIONNEW
+TALE
+La l‚gende des Ombres
+END
+
+// The following idnames were changed (above, in this file)
+// to prevent conflict with ids in tonehelp.txt.  They need
+// to be changed in all translated versions as well. 
+//
+; TASKHIGH id was changed to THIGH
+; TASKNORM id was changed to TNORM
+; TASKEXCL id was changed to TEXCL
+; TASKKILL id was changed to TKILL
+
+
+ENDTEXT

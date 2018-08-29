@@ -1,0 +1,642 @@
+; Building Animation Segments for Seekers
+;
+;-----------------------------------------------------
+
+item S-BLDTON   ; Building Tone Producer
+shape P-BLDTON  
+BASE    1  1   50
+CHUG    2  11   3   L
+GLYP    22 26
+PROD    16 21   2   P   0  21  6,-13    
+
+;-----------------------------------------------------
+
+item S-MAGTON    ; magic tone producer  PLACEHOLDER
+shape M-MAGTON
+BASE    1  1 50
+CHUG    2  15   3   L
+GLYP    57 60
+PROD    16 30   2   L   16  30  6,-54    
+
+
+;-----------------------------------------------------
+
+item S-CRYTON  ; Crystal Tone Producer
+shape P-CRYTON
+BASE    1  1 50
+CHUG    2  15   3   L
+GLYP    34 38
+PROD    20 33   2   L   0  25  -9,-53    
+
+;-----------------------------------------------------
+
+item S-EXTEND  ; Tone-Range Extender
+shape P-EXTEND
+BASE    1  1 50
+GLYP    40  43
+CHUG    2  11   3   L
+
+;-----------------------------------------------------
+
+item S-ENRICH  ; Tone-Rate Enricher
+shape P-ENRICH
+BASE    1  1 50
+INCI    2  11   2   L  0     
+GLYP    12  12
+
+;-----------------------------------------------------
+
+item S-HALL    ; Seeker Hall
+BASE    1  3 50
+OCCU	4  4  -7,-7
+
+item S-TRAIN1  ; Supernatural Ranged Training
+BASE    1  3 70
+GLYP    4  7
+INCI    8  33   3   L  0
+OCCU	34 34   0,-8
+
+item S-TRAIN2  ; Ethereal Close Training
+BASE    1  3 70
+GLYP    4  7
+INCI    8  23   4   L  0
+OCCU	24 24   0,-12
+BARG 	25 30
+
+item S-TRAIN3  ; Supernatural Close Training
+BASE    1  2 70
+GLYP    3  6
+INCI    7  17   3   L  0
+OCCU	18 18   0,-8
+
+item S-SPELL1 ; Spell building 1
+BASE	1  3 70
+GLYP	4  7
+INCI    8  16   3   L  0
+OCCU    17 17   -6,-14
+BARG    18 23
+
+item S-SPELL2 ; Spell building 2
+BASE	1  3 70
+GLYP	4  7
+INCI    8  16   3   L  0
+OCCU    17 17   -6,-14
+BARG    18 23
+
+;-----------------------------------------------------
+; End Animation Segment for Seekers
+;-----------------------------------------------------
+
+; Building Animation Segments for Lifegivers
+;
+;-----------------------------------------------------
+item L-HALL  ; Great Hall
+BASE    1  4 50
+OCCU    5  5 -6,-8
+
+item L-BLDTON  ; Building Tone Producer
+shape P-BLDTON
+BASE    1  1 50
+CHUG    2  11   3   L
+GLYP    38 48
+PROD    16 21   2   P   0  21  6,-13    
+
+;-----------------------------------------------------
+
+item L-MAGTON    ; magic tone producer  PLACEHOLDER
+shape M-MAGTON
+BASE    1  1 50
+CHUG    2  15   3   L
+GLYP    42 52
+PROD    16 30   2   L   16  30  6,-54    
+
+
+;-----------------------------------------------------
+
+item L-CRYTON  ; Crystal Tone Producer
+shape P-CRYTON
+BASE    1  1 50
+CHUG    2  15   3   L
+GLYP    50 60
+PROD    20 33   2   L   0  25  -9,-53    
+
+;-----------------------------------------------------
+
+item L-EXTEND  ; Tone-Range Extender
+shape P-EXTEND
+BASE    1  1 50
+GLYP    24  34
+CHUG    2  11   3   L 
+
+;-----------------------------------------------------
+
+item L-ENRICH  ; Tone-Rate Enricher
+shape P-ENRICH
+BASE    1  1 50 
+INCI    2  11   2   L  0     
+GLYP    12  12
+
+;-----------------------------------------------------
+
+item L-TRAIN1  ; Supernatural Close Training
+BASE    1  3 70
+GLYP    5  15
+INCI    16  51   3   L  0
+OCCU    4  4  -9,-9
+
+item L-TRAIN2  ; Supernatural Close Training
+BASE    1  3 70
+GLYP    5  15
+INCI    21  41   3   L  0
+OCCU    4  4  -9,-9
+BARG    16  20
+
+item L-TRAIN3  ; Supernatural Close Training
+BASE    1  2 70
+GLYP    4  14
+INCI    20  34   3   L  0
+OCCU    3  3  -9,-9
+BARG    15  19
+
+item L-SPELL1    ; spell tower 1 PLACEHOLDER
+BASE    1   3 70
+GLYP    5   15
+INCI    16  22   5   P   0    
+OCCU   4   4  0,-65
+BARG	23 27
+
+item L-SPEC1    ; special blding
+BASE    1   1 70
+GLYP    2   12   
+OCCU   13   13  0,-65
+
+
+
+;-----------------------------------------------------
+; End Animation Segment for Lifegivers
+;-----------------------------------------------------
+
+
+;-----------------------------------------------------
+; Building Animation Segments for Protectors
+;
+;-----------------------------------------------------
+
+item P-BLDTON  ; Building Tone Producer
+BASE    1  1 50
+CHUG    2  11   3   L
+GLYP    12 15
+PROD    16 21   2   P   0  21  6,-13    
+
+;-----------------------------------------------------
+
+item P-MAGTON    ; magic tone producer  PLACEHOLDER
+SHAPE M-MAGTON
+BASE    1  1 50
+CHUG    2  15   3   L
+GLYP    53 56
+PROD    16 30   2   L   16  30  6,-54    
+
+
+;-----------------------------------------------------
+
+item P-CRYTON  ; Crystal Tone Producer
+BASE    1  1 50
+CHUG    2  15   3   L
+GLYP    16 19
+PROD    20 33   2   L   0  25  -9,-53    
+
+;-----------------------------------------------------
+
+item P-EXTEND  ; Tone-Range Extender
+BASE    1  1 50
+CHUG    2  11   3   L     
+GLYP    36 39
+
+;-----------------------------------------------------
+
+item P-ENRICH  ; Tone-Rate Enricher
+BASE    1  1 50
+INCI    2  11   2   L  0     
+
+;-----------------------------------------------------
+
+item P-HALL  ; Great Hall
+BASE    1  3 50
+;INCI    2  7    2   L  0
+;OCCU    8  8	-8,-32
+
+;-----------------------------------------------------
+
+item P-HATCH  ; Hatchery
+BASE    1  1 70
+GLYP    2  5
+INCI    6  16    2   L  0
+CONS    17 27    2   L  0 -17,-19
+PROD    28 44    2   L  0 44  -7,-41  
+
+;-----------------------------------------------------
+
+item P-TRAIN1  ; Physical Close Training
+BASE    1  4 70
+GLYP    5  8
+OCCU    9  9   -7, -20
+BARG    10 18
+
+;--------------------------------
+item P-TRAIN2     ; Supernatural Ranged Training  
+BASE    1   3 70
+GLYP    4   7  
+OCCU    8   8   4,-18
+BARG    9   13  
+
+;--------------------------------
+item P-TRAIN3    ; Physical Ranged Training 
+BASE    1   2 70
+GLYP    3   6
+INCI    7   14   5   L   0   
+OCCU    15  15  -10,-13
+BARG    16  20  
+
+;--------------------------------
+item P-SPELL1    ; spell tower
+BASE    1   3 70
+GLYP    4   7
+OCCU    8   8   -11,-12
+BARG    9   15  
+
+;--------------------------------
+item P-SPEC1     ; special building 1 - Ronin 
+BASE    1   1  70
+GLYP    2   5
+OCCU    6   6   10,-73
+
+;--------------------------------
+item P-SPEC2     ; special building 2 - Medic - 
+BASE    1   1 70
+GLYP    2   5
+INCI    6   13   3   L   0   
+OCCU    14   14   -6,-18 
+
+;--------------------------------
+item P-SPEC3     ; special building 3 - SandShapers -  PLACEHOLDER
+BASE    1   1 70
+GLYP    3   7 
+OCCU    8   8   0,-20   
+
+;--------------------------------
+item P-SPEC4     ; special building 4 - Hephaestus' Kitchen 
+BASE    1   1 70
+GLYP    2   5 
+INCI    6   21   2   L   0   
+CONS    22  38   2   L   0  5,-110
+PROD    22  38   2   L   0  37  5,-110
+
+
+
+;---------------------- END PROTECTORS ---------------------
+;-----------------------------------------------------------
+
+
+
+
+
+
+; Building Animation Segments for Mystics
+;
+;-----------------------------------------------------
+
+item M-BLDTON  ; Building Tone Producer
+shape P-BLDTON
+BASE    1  1 50
+CHUG    2  11   3   L
+GLYP    27 37
+PROD    16 21   2   P   0  21  6,-13    
+
+;-----------------------------------------------------
+
+item M-MAGTON    ; magic tone producer  PLACEHOLDER
+;shape P-MAGTON
+BASE    1  1 50
+CHUG    2  15   3   L
+GLYP    31 41
+PROD    16 30   2   L   16  30  6,-54    
+
+;BASE    1  1
+;INCI    2  11   2   L  0     
+
+;-----------------------------------------------------
+
+item M-CRYTON  ; Crystal Tone Producer
+shape P-CRYTON
+BASE    1  1 50
+CHUG    2  15   3   L
+;GLYP    16 19
+GLYP    39 49
+PROD    20 33   2   L   0  25  -9,-53    
+
+;-----------------------------------------------------
+
+item M-EXTEND  ; Tone-Range Extender
+shape P-EXTEND
+BASE    1  1 50
+GLYP    13 23
+CHUG    2  11   3   L
+
+;-----------------------------------------------------
+
+item M-ENRICH  ; Tone-Rate Enricher
+BASE    1  1 50
+INCI    2  11   2   L   0    
+
+;-----------------------------------------------------
+
+item M-HALL  ; Great Hall
+BASE    1  4 50
+;OCCU    2  2 -15,-11
+
+;-----------------------------------------------------
+
+item M-HATCH  ; Hatchery
+BASE    1  1 70
+CHUG    41  50    2   L
+CONS    7  11   2   P   0  3,-82
+PROD    7  40   2   L   0  33   5,-103
+
+;-----------------------------------------------------
+
+item M-TRAIN1  ; Ethereal Close Training
+BASE    1  4 70
+GLYP    6  15
+INCI    16  47   2   L   0    
+OCCU    5  5  -9,-9
+BARG    49  53
+
+;--------------------------------
+
+item M-TRAIN2     ; Natural Ranged Training  PLACEHOLDER
+BASE    1   3 70
+GLYP    5   14 
+INCI    15  43   2   L   0    
+OCCU    4  4  -6,-29
+BARG	44 49
+
+;--------------------------------
+
+item M-TRAIN3    ; Ethereal Ranged Training  PLACEHOLDER
+BASE    1   2 70
+GLYP    4   14   
+OCCU    3 3 -7,-25
+BARG	15 19
+;--------------------------------
+
+item M-SPELL1    ; spell tower 1 
+BASE    1   3 70
+GLYP    5   15
+INCI    16  25   2   L   0    
+OCCU   4   4  0,-20
+BARG	27 31
+
+;--------------------------------
+
+item M-SPELL2    ; spell tower 2
+BASE    1   3 70
+GLYP    5   15
+INCI    21  151 2   L   0    
+;INCI    21  307   2   L   0    
+OCCU   4   4  0,-20
+BARG	16 20
+
+;--------------------------------
+
+item M-SPEC1     ; special building 1 - Druid Hut - PLACEHOLDER
+BASE    1   1 70
+GLYP    3   7
+OCCU    8   8   0,-20
+
+;--------------------------------
+
+item M-SPEC3     ; special building 3  - Stat Improve? - PLACEHOLDER
+BASE    1   1 70
+GLYP    3   7   
+CONS    8   17  2   L  0   0,-80
+
+
+;===========================================================
+
+
+
+
+;---------------------- END MYSTICS ---------------------
+;-----------------------------------------------------------
+
+
+
+;===========================================================
+
+; Building Animation Segments for Leviathan
+;
+;-----------------------------------------------------
+
+item V-INFECT
+CHUG    1  11   3   P
+
+;-----------------------------------------------------
+
+item V-PSUPP  ; Physical Supply Center
+BASE    1  1 70
+CHUG    2  15   2   L
+PROD    17 43   2   L  17  33   -7,-45
+
+;-----------------------------------------------------
+
+item V-SSUPP  ; Supernatural Supply Center
+BASE    1  1 70
+CHUG    2  12   3   P
+PROD    13 23   4   L  0   23   7,-90
+
+ 
+;-----------------------------------------------------
+
+item V-NSUPP  ; Natural Supply Center
+BASE    1  1 70
+;CHUG    2  17   2   L
+INCI    2   17   2   L   10  
+PROD    18 34   2   P  18  33   0,-145
+
+
+;-----------------------------------------------------
+
+item V-ESUPP  ; Natural Supply Center
+BASE    1  1 70
+CHUG    2  31   2   L
+PROD    32 41   2   L  32  32   0,-100
+
+;-----------------------------------------------------
+
+item V-SHOT1
+BASE    1  1 70
+CHUG    2  14   2   L
+PROD    15 21   2   L  0   20   -3,-50  VSHT1B
+
+;-----------------------------------------------------
+
+item V-SHOT2
+BASE    1  1 70
+CHUG    2  6   2   L
+PROD    7  11  2   L   0   10  4,-104  VSHT2B
+
+;-----------------------------------------------------
+
+item V-SHOT3
+BASE    1  1 70
+CHUG    2  10   2   L
+PROD    2  10  2   L   0   10  4,-70  VSHT2B
+
+;-----------------------------------------------------
+
+item V-ATTCK1
+BASE    1  1 70
+CHUG    2  24   4   L
+
+;-----------------------------------------------------
+
+item V-ATTCK2
+BASE    1  1 70
+CHUG    2  11    5   L
+PROD    12 21   4   L  12  14  0,-60
+
+;-----------------------------------------------------
+
+item V-ATTCK3
+BASE    1  1 70
+CHUG    2  21  3   L
+;-----------------------------------------------------
+
+item V-ATTCK4
+BASE    1  1 70
+CHUG    2  23   3   P
+;-----------------------------------------------------
+
+item V-ATTCK5
+BASE    1  1 70
+CHUG    2  9    5   P
+PROD    10  16  3   L  0  13  0,-60 
+
+
+;-----------------------------------------------------
+
+item V-ATTCK6
+BASE    1  1 70
+;CHUG    2  3    10   P
+PROD    2  21  4   P  2  16  0,0 DEVIL
+
+;-----------------------------------------------------
+item V-ROD1
+BASE    1  1 70
+CHUG    2  6  3   L
+;INCI    7  14 2   L 10
+PROD    7  14 3   L 0 11 0,-60 VSHROD
+
+
+item V-ROD2
+BASE    1  1 70
+CHUG    2  10  3   L
+;INCI    12 18  3   L 10
+PROD    12 18  3   L 0 18 0,-100 VSHT1B
+
+item V-ROD3
+BASE    1  1 70
+CHUG    2  31  3   L
+;INCI    32   43   2   L   10  
+PROD    32 43  3   L 0 43 0,-90 VSPIRL
+
+;-----------------------------------------------------
+
+item V-SHLD0
+shape spears
+BASE 1 1 70
+
+item V-SHLD1
+shape spears
+BASE 2 2 70
+
+item V-SHLD2
+shape spears
+BASE 3 3 70
+
+item V-SHLD3
+shape spears
+BASE 4 4 70
+
+item V-SHLD4
+shape spears
+BASE 5 5 70
+
+item V-SHLD5
+shape spears
+BASE 6 6 70
+
+item V-SHLD6
+shape spears
+BASE 7 7 70
+
+item V-SHLD7
+shape spears
+BASE 8 8 70
+
+item V-SHLD8
+shape spears
+BASE 9 9 70
+ 
+item V-SHLD9
+shape spears
+BASE 10 10 70
+
+item V-SHLD10
+shape spears
+BASE 11 11 70
+
+item V-SHLD11
+shape spears
+BASE 12 12 70
+
+item V-SHLD12
+shape spears
+BASE 13 13 70
+
+item V-SHLD13
+shape spears
+BASE 14 14 70
+
+
+
+;===========================================================
+
+; Building Animation Segments for Triggers
+;
+;-----------------------------------------------------
+
+item BR-TRG01  ; Bridge Trigger one 
+BASE    1  1
+CONS    2  9    5   L  9     -3,-40 ; eating key
+PROD    10 16   2   L  0  0  -3,-30
+CHUG    17 23   2   L  
+
+;===========================================================
+
+; Building Animation Segments for Misc
+;
+;-----------------------------------------------------
+
+item POOL      ; unoccupied tone pool
+BASE    1  1
+CHUG    2  40   3   P
+
+item PADS      ; unoccupied pad
+BASE    1  1   
+CHUG    1  9   1    L
+
+
+
+

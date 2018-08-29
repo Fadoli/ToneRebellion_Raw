@@ -1,0 +1,372 @@
+; Floater shape info file
+;------------------------
+
+;----------------------------------------------------------------------
+; Protector
+;----------------------------------------------------------------------
+
+item     pwork
+body     pbod  
+legs     plegs
+base     0
+hover    0  15
+pickup   16 22 
+carry    23 30
+attack   34 43 2 L  39
+;graspxy  8  18
+graspxy  10  12
+attxy    43 0
+
+item     ptrain1
+body     pbod  
+legs     plegs
+base     1  4
+hover    0  15
+pickup   16 22 
+carry    23 30
+attack   34 43 2 L  39
+atteff   bhood
+graspxy  8  18
+attxy    43 0
+
+item     ptrain2
+body     pbod  
+legs     plegs
+base     5  8
+hover    0  15
+pickup   16 22 
+carry    23 30
+attack   44 54 2 L  50
+atteff   gazecast
+graspxy  8  18
+attxy    43 0
+
+item     ptrain3
+body     pbod  
+legs     plegs
+base     9  11
+hover    0  15
+pickup   16 22 
+carry    23 30
+attack   45 54 2 L  50
+atteff   ninja
+graspxy  8  18
+attxy    20 6
+
+item     pwiz1
+body     pbod  
+legs     plegs
+base     12 14
+hover    0  15
+pickup   16 22 
+carry    23 30
+attack   55 65 2 L  61
+graspxy  8  18
+attxy    43 0
+
+;----------------------------------------------------------------------
+; Seeker
+;----------------------------------------------------------------------
+
+item     swork
+body     sbod
+legs     slegs
+base     0
+hover    0  15
+pickup   16 22
+carry    23 30
+attack   34 43 2 L  40
+;graspxy  12 16
+graspxy  10 14
+attxy    43 0
+
+item     strain1
+body     sbod
+legs     slegs
+base     1  3
+hover    0  15
+pickup   16 22
+carry    23 30
+attack   34 43 2 L  40
+atteff   SOLCAST
+graspxy  12 16
+attxy    43 0
+
+item     strain2
+body     sbod
+legs     slegs
+base     4  6
+hover    0  15
+pickup   16 22
+carry    23 30
+attack   44 54 2 L  51
+atteff	 SPIRITCAST
+graspxy  12 16
+attxy    43 0
+
+item     strain3
+body     sbod
+legs     slegs
+base     7  8
+hover    0  15
+pickup   16 22
+carry    23 30
+attack   55 65 2 L  61
+atteff   LIGHTCAST
+graspxy  12 16
+attxy    32 2
+
+item     sspell1
+body     sbod
+legs     slegs
+base     9  11
+hover    0  15
+pickup   16 22
+carry    23 30
+attack   55 65 2 L  61
+graspxy  12 16
+attxy    43 0
+
+item     sspell2
+body     sbod
+legs     slegs
+base     12 14
+hover    0  15
+pickup   16 22
+carry    23 30
+attack   55 65 2 L  61
+graspxy  12 16
+attxy    43 0
+
+;----------------------------------------------------------------------
+; Mystic
+;----------------------------------------------------------------------
+
+item     mwork
+body     mbod  
+legs     mlegs
+base     0
+hover    0  15
+pickup   54 60
+carry    60 66
+attack   31 36 2 P  36
+;attack   42 50 2 P  47
+;graspxy  11 17
+graspxy  13 14
+attxy    43 0
+
+item     mtrain1
+body     mbod  
+legs     mlegs
+base     1  4
+hover    0  15
+pickup   54 60
+carry    60 66
+attack   43 53 2 P  51
+atteff   banshee
+graspxy  11 17
+attxy    43 0
+
+item     mtrain2
+body     mbod  
+legs     mlegs
+base     5  8
+hover    0  15
+pickup   50 54
+carry    60 66
+attack   17 30 2 P  27
+atteff   LTNGCAST
+graspxy  11 17
+attxy    0 -10
+
+item     mtrain3
+body     mbod  
+legs     mlegs
+base     9  11
+hover    0  15
+pickup   50 54
+carry    60 66
+attack   32 41 2 L  35
+atteff   astral
+graspxy  11 17
+attxy    43 0
+
+item     mspell1
+body     mbod  
+legs     mlegs
+base     12  14
+hover    0  15
+pickup   50 54
+carry    60 66
+attack   18 31 2 P  28
+atteff   astral
+graspxy  11 17
+attxy    43 0
+
+item     mspell2
+body     mbod  
+legs     mlegs
+base     15  17
+hover    0  15
+pickup   50 54
+carry    60 66
+attack   18 31 2 P  28
+atteff   astral
+graspxy  11 17
+attxy    43 0
+;----------------------------------------------------------------------
+; Lifegiver
+;----------------------------------------------------------------------
+
+item     lwork
+body     lbod
+legs     llegs
+base     0
+hover    0  15
+pickup   16 24
+carry    24 39
+attack   40 48 2 L  46
+;attack   42 87 2 L  61
+;graspxy  11 22
+graspxy  11 20
+attxy    43 0
+
+item     ltrain1
+body     lbod
+legs     llegs
+base     1  3
+hover    0  15
+pickup   16 24
+carry    24 39
+;attack   42 87 1 L  69
+;attack   42 87 1 L  61
+attack   49 94 1 L  54
+atteff   LIFECAST
+graspxy  11 22
+attxy    43 0
+
+item     ltrain2
+body     lbod
+legs     llegs
+base     4  6
+hover    0  15
+pickup   16 24
+carry    24 39
+attack   40 48 2 L  46
+graspxy  11 22
+attxy    30 10
+;attxy    43 0
+
+item     ltrain3
+body     lbod
+legs     llegs
+base     7  8
+hover    0  15
+pickup   16 24
+carry    24 39
+;attack   42 87 1 L  61
+attack   49 62 1 L  62
+atteff   SHRINK
+graspxy  11 22
+attxy    43 0
+
+item     lspell1
+body     lbod
+legs     llegs
+base     9  11
+hover    0  15
+pickup   16 24
+carry    24 39
+attack   49 94 2 L  68
+graspxy  11 22
+attxy    43 0
+;----------------------------------------------------------------------
+; Leviathan
+;----------------------------------------------------------------------
+
+item     vspore
+legs     v-spore
+hover    0  9
+
+item     vpc
+body     vbod
+legs     vpclegs
+base     0  1
+hover    0  15
+attack   16 19 P
+attxy    32 18
+
+item     vpr
+body     vbod
+legs     vprlegs
+base     2  3
+hover    0  15
+attack   16 36
+atteff   vprb
+attxy    0 0
+
+item     vsc
+body     vbod
+legs     vsclegs
+base     4  5
+hover    0  7  1
+attack   9  15 1 L 12
+attxy    53 13
+
+item     vsr
+body     vbod
+legs     vsrlegs
+base     6  7
+hover    0  7
+attack   8  15
+atteff   vsrc
+attxy    20 13
+
+item     vec
+body     vbod
+legs     veclegs
+base     8  9
+hover    0  16
+attack   0  16
+atteff   vecc
+attxy    32 18
+
+item     ver
+body     vbod
+legs     verlegs
+base     10 11
+hover    0  10
+attack   0  10
+atteff   verc 
+attxy    15 1
+
+item     vnc
+body     vbod
+legs     vnclegs
+base     12 13
+hover    0  15
+attack   16 22
+attxy    32 18
+
+item     vnr
+body     vbod
+legs     vnrlegs
+base     14 15
+hover    0  24
+attack   0  24 2 L 14
+atteff   vnrb
+attxy    28 -10
+
+
+;--------------------------------
+
+; ASCENDED ONE
+
+item 	 ascend
+legs     alegs
+hover    0  28
+attack   30 59 2 L  50
+
+
+end
+

@@ -1,0 +1,327 @@
+GLYPH00
+Tal - Il vous confŠre l'int‚grit‚, vous protŠge de
+ceux qui pourraient vous manipuler, des fourbes et 
+des calculateurs. Tal vous apprend … avoir confiance en vous-mˆme.
+END
+
+GLYPH01
+Dr‚e - Dr‚e vous apporte le seul pouvoir que la haine bouillonnante 
+qui gŒt au coeur du L‚viathan ne peut arrˆter. La puissance de la 
+rancune et de la colŠre est inutile devant Dr‚e.
+END
+
+GLYPH02
+Lon - Lon vous amŠne la libert‚ et vous protŠge de ceux qui veulent 
+vous manipuler. Lon d‚montre que la domination est un jeu dangereux,
+surtout pour celui qui tente de l'exercer.
+END
+
+GLYPH03
+Tuka - Le glyphe Tuka vous permet de rester fort et serein 
+dans l'adversit‚. Mˆme face au plus grand des dangers, vous 
+demeurerez maŒtre de tous vos moyens. 
+END
+
+GLYPH04
+Dran - Si vous ne pouvez faire confiance … vos semblables,
+vous serez seul. Dran vous offre la sagesse qui consiste … laisser
+les autres agir … leur guise.
+END
+
+GLYPH05
+Tra -  Ce glyphe compense la tristesse que le L‚viathan 
+exsude. Vous trouverez toujours la force de poursuivre votre route,
+aussi terribles que soient vos ‚preuves.
+END
+
+GLYPH06
+Ahn - Ahn est la preuve que tuer son prochain revient … se tuer 
+soi-mˆme, et qu'aucun conflit ne vaut que l'on provoque la violence.
+Vous tƒcherez de toujours pr‚server la paix.
+END
+
+GLYPH07
+Phet - Phet vous donne la force de tenir vos promesses, justifiant ainsi 
+la confiance de ceux qui comptent sur vous. Phet est la preuve que vous
+tiendrez vos propres engagements.
+END
+
+GLYPH08
+Lod - Lod vous montre que toutes choses se d‚roulent comme pr‚vu. Sans 
+cette confiance, tout mouvement est impossible.
+La d‚termination s'effondre quand la foi est absente.
+END
+
+GLYPH09
+M‚n‚ - M‚n‚ d‚montre que tout est interd‚pendant. Ne vous laissez donc
+pas distraire par les chimŠres d'une ind‚pendance illusoire : mˆme le L‚viathan
+est un mal n‚cessaire … l'‚quilibre global.
+END
+
+GLYPH10
+Nos - On rencontre Nos au moment o— l'on croit ˆtre incapable de se 
+tromper. Ainsi vous demeurerez humble tout en accomplissant de grands desseins.
+END
+
+GLYPH11
+Grem - Grem vous rappelle que les autres ont des droits, que les aŒn‚s sont
+sages. Grem est la d‚monstration que chaque ˆtre recŠle une forme de sagesse
+que vous ne possŠdez pas.
+END
+
+GLYPH12
+Mef - Mef montre que vous ˆtes au moins partiellement responsable des agissements du
+L‚viathan. Ayant conscience de cela, vous vous rapprochez un peu plus de la
+paix int‚rieure. 
+END
+
+GLYPH13
+Vinya - Vinya vous libŠre de vos besoins et de vos pulsions. Vos souffrances prennent
+fin quand vous vous pr‚occupez des autres. Vinya est le trait d'union entre 
+tous les autres glyphes.
+END
+
+SEAL00
+Le sceau Na Tal engendre le mensonge.
+END
+
+SEAL01
+Le sceau Na Dr‚e d‚clenche la fureur aveugle et irraisonn‚e.
+END
+
+SEAL02
+Le sceau Na Lon est … la source de la domination et de l'esclavage 
+entre les ˆtres.
+END
+
+SEAL03
+Le sceau Na Tuka cr‚e une peur incontr“lable.
+END
+
+SEAL04
+Le sceau Na Dran provoque la mont‚e de l'intol‚rance et la suspicion. 
+END
+
+SEAL05
+Le sceau Na Tra cause les souffrances et la douleur.
+END
+
+SEAL06
+Le sceau Na Ahn apporte avec lui violence et cruaut‚.
+END
+
+SEAL07
+Le sceau Na Phet r‚pand la n‚gligence et la trahison.
+END
+
+SEAL08
+Le sceau Na Lod est le germe du doute. Il brise l'espoir, ‚loigne de 
+la croyance.
+END
+
+SEAL09
+Le sceau Na M‚n‚ nourrit l'hostilit‚, l'isolement et l'‚go‹sme.
+END
+
+SEAL10
+Le sceau Na Nos r‚pand le fl‚au de la vanit‚.
+END
+
+SEAL11
+Le sceau Na Grem g‚nŠre le d‚dain et le m‚pris.
+END
+
+SEAL12
+Le sceau Na Mef pousse … l'indiff‚rence g‚n‚rale et … l'apathie face 
+… la souffrance.
+END
+
+SEAL13
+Le sceau Na Vinya donne aux cr‚atures des yeux plus gros que leur 
+ventre. 
+END
+
+
+BRIDGE00
+Cl‚ de Pont - Cet objet consolide les liens de force qui 
+maintiennent les Œles … leur place.
+END
+
+BRIDGE01
+Cl‚ de Pont - Cet objet consolide les liens de force qui 
+maintiennent les Œles … leur place.
+END
+;Cl‚ de Pont - utilis‚e sur un accŠs de pont, la cl‚ r‚unit les liens de force entre les Œles, g‚n‚rant  ainsi un rayon ;que les Flotteurs peuvent traverser.
+
+BRIDGE02
+Cl‚ de Pont - Cet objet consolide les liens de force qui 
+maintiennent les Œles … leur place.
+END
+;Cl‚ de Pont - utilis‚e sur un accŠs de pont, la cl‚ r‚unit les liens de force entre les Œles, g‚n‚rant  ainsi un rayon ;que les Flotteurs peuvent traverser.
+
+BRIDGE03
+Cl‚ de Pont - Cet objet consolide les liens de force qui maintiennent
+les Œles … leur place.
+END
+;Cl‚ de Pont - Cet objet consolide les liens de force qui 
+;maintiennent les Œles … leur place. Elle cr‚e un pont entre deux Œles.
+
+
+PLOT00
+Le T‚trajen - La main droite de Mantu ‚treint … jamais le T‚trajen.
+END
+
+PLOT01
+L'Octojen - La main gauche de Mantu ‚treint … jamais l'Octojen.
+END
+
+PLOT02
+Cristaux de Taze - Les Nouveaux Venus les utilisaient pour placer une 
+‚tincelle de vie dans leurs objets ensorcel‚s. 
+END
+
+PLOT03
+Cristaux de Taze - Artefacts enchant‚s con‡us par les Nouveaux Venus.
+END
+
+PLOT04 
+Lanterne d'‚ther - Une lanterne d'‚ther ‚met des radiations 
+‚nerg‚tiques ; celles-ci rendent perceptibles des objets rares et invisibles 
+qui existent seulement dans le royaume ‚th‚r‚.
+END
+
+PLOT05
+Lanterne d'‚ther - Sa luminosit‚ se reflŠte naturellement sur 
+les objets ‚th‚r‚s cach‚s, exposant ceux-ci aux regards.
+END
+
+PLOT06
+Spore de Respiria - Cette spore mƒle devient active lorsqu'elle entre en contact avec 
+une Respiria femelle.
+END
+
+PLOT07
+Tone de croissance - Semblable au Tone de cristal mais de source naturelle.
+ Ce type de Tone est produit par des plantes rares.
+END
+; Le Tone de croissance est riche en ‚nergie naturelle. Dans les temps recul‚s o— il pouvait ˆtre trouv‚, les ;moissons ‚taient abondantes et beaucoup de flotteurs naquirent.
+
+// TRANSLATION CHANGE
+PLOT08
+Crƒne ancien de Nouveau Venu - L'un des crƒnes qui permet d'invoquer Dr‚est.
+END
+
+PLOT09
+Crƒne ancien de Flotteur - Cet objet est porteur d'un charme qui attire 
+l'Ombre des Marais hors de sa taniŠre.
+END
+
+PLOT10
+L'Idole de la Force - L'une des deux idoles qui r‚veillent le Krajin.
+END
+
+PLOT11
+L'Idole de la Soumission - L'une des deux idoles qui r‚veillent le Krajin.
+END
+
+PLOT12
+La cl‚ des Nouveaux Venus - L'une des deux cl‚s qui donnent accŠs aux secrets 
+de la BibliothŠque des L‚gendes.
+END
+
+PLOT13
+La cl‚ des Flotteurs - Les premiers Flotteurs l'utilisaient pour acc‚der … la 
+BibliothŠque des L‚gendes.
+END
+
+PLOT14
+Disque lunaire - Il donne … la Porte des Songes l'‚nergie magique 
+de la nuit.
+END
+
+PLOT15
+Disque solaire - Il accorde la puissance de la lumiŠre … la Porte 
+des Songes.
+END
+
+PLOT16
+Tore de Taze - Une source d'‚nergie, semblable … du cristal de Taze 
+mais plus sp‚cialis‚e. Seuls trois tores existent. 
+END
+
+PLOT17
+Tore de Taze - Une source d'‚nergie sp‚cialis‚e. Les Nouveaux Venus en 
+con‡urent trois.
+END
+
+PLOT18
+Xaphen - Permet de trouver le Temple des Tempˆtes si on le r‚unit 
+au Xenog.
+END
+
+PLOT19
+Xenog - Permet de trouver le Temple des Tempˆtes si on le r‚unit 
+au Xaphen.
+END
+
+PLOT20
+Circuit d'alimentation - Il fournit l'‚nergie dont le Disque du Temps 
+a besoin.
+END
+
+PLOT21
+Sables du Temps - Un artefact enchant‚ qui active le Disque du Temps.
+END
+
+PLOT22
+Lampe de la Mort - Elle permet la mat‚rialisation de l'Ob‚lisque des 
+Morts si on l'associe … la Lampe de la Vie.
+END
+
+PLOT23
+Lampe de la Vie - Elle permet la mat‚rialisation de l'Ob‚lisque des 
+Morts si on l'associe … la Lampe de la Mort.
+END
+
+PLOT24
+Seau de Tone - Il contient du Tone plasmique, qui peut faire
+revenir le Repaire du Fou. 
+END
+
+PLOT25
+Seau de Tone - Fournit son fluide vital au Repaire du Fou.
+END
+
+PLOT26
+Cl‚ de l'ouest - Ouvre l'extr‚mit‚ ouest de l'Arche de Norasten.
+END
+
+PLOT27
+Cl‚ de l'est - Ouvre l'extr‚mit‚ est de l'Arche de Norasten.
+END
+
+ENDTEXT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

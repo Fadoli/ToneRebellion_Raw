@@ -1,0 +1,56 @@
+// NOTE: please take care to not alter the format for this file at 
+// all!  The game depends on the specific order of names as given 
+// below.  No item can be added or removed.  Comments, beginning with
+// ; or // are of course acceptable.
+
+
+// Tribe names, MAX LENGTH = 11 characters
+Tark
+Zygon
+C‚ph‚en
+Dyla
+L‚viathan
+
+// Plural Tribe names, MAX LENGTH = 11 characters
+Tarks
+Zygons
+C‚ph‚ens
+Dyla
+L‚viathans
+
+// Island Names, MAX LENGTH = 31 characters
+Tarzus
+La Caverne de Cristal
+La Mer C‚ph‚enne
+Pangir
+Le Marais Dr‚en
+Onsama
+Palomon
+Tonal
+Le Noyau
+Frenza
+Lethe
+Mymus
+Morfid
+Norasten
+Friid
+
+// Leviathan beast names, MAX LENGTH 15 characters
+Spores
+Spores
+Rakalingus
+Broontilingus
+Zeeth
+Keth
+Drack
+Nadrack
+Guˆpe du Tone
+Sasp
+Ronth
+Varnth
+Metha
+Koalint
+Zwacker
+Zwaup
+Shandi
+Flindex

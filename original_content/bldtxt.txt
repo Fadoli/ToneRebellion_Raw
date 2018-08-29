@@ -1,0 +1,249 @@
+NONE
+Aucune connaissance n'est accessible concernant cette myst‚rieuse structure.
+END
+
+GREATHALL
+Cet ancien ‚difice est le repaire de votre tribu depuis l'‚poque du Grand Sommeil qui a suivi la D‚sunion. Divers objets et ressources peuvent y ˆtre entrepos‚s.
+END
+
+BLDTON
+Le G‚n‚rateur de Tone structurel fabrique des perles de Tone structurel servant … la construction de nouveaux bƒtiments. Il consomme du Tone.
+END
+
+MAGTON
+Le Cr‚ateur de Tone magique fabrique des billes de Tone magique utilis‚es par les magiciens de votre tribu. Il consomme du Tone.
+END
+
+CRYTON
+Le Producteur de Tone cristallin fabrique le Tone cristallin qui dynamise les diverses activit‚s de la tribu. Il consomme du Tone.
+END
+
+TONEXTEND
+Le N‚buliseur de Tone diffuse du Tone ‚th‚r‚. Utilisez-le sur un terrain riche en Tone pour alimenter les nouvelles zones.
+END
+
+PTRAIN1
+La Confr‚rie du Tentacule est une communaut‚ de combattants au corps … corps.
+END
+
+PTRAIN2
+Les Contemplatifs sont un ancien clan de Flotteurs dou‚s de capacit‚s surnaturelles. Ils peuvent attaquer … distance.
+END
+
+PTRAIN3
+La Conf‚d‚ration de l'Etoile est le refuge des Flotteurs initi‚s … l'art subtil du lancer d'‚toiles … courte distance.
+END
+
+PSPELL1
+La Soci‚t‚ des Magiciens associe … son subtil pouvoir la force du Tone magique pour lancer des sorts dont la puissance et les effets varient.
+END
+
+MTRAIN1
+Les F‚es du requiem sont des spectres hurlant … la mort. A courte distance, leurs cris brisent la volont‚ de leurs ennemis.
+END
+
+MTRAIN2
+Les Prˆtres de l'orage invoquent les cieux pour d‚truire leurs ennemis … distance.
+END
+
+MTRAIN3
+Les Explorateurs c‚lestes sont initi‚s … la transcendance du monde mat‚rialiste. Ils attaquent … distance.
+END
+
+MSPELL1
+L'Ordre d'Arcania rassemble des Tisseurs de sorts dou‚s d'un savoir provenant d'au-del… du monde visible.
+END
+
+STRAIN1
+Le Clan de Sol r‚unit des sages dot‚s d'une grande puissance d'attaque … distance.
+END
+
+STRAIN2
+Les Voix de l'Esprit sont des mystiques exil‚s pass‚s maŒtres dans l'art de la conjuration rapproch‚e.
+END
+
+STRAIN3
+La c‚lŠbre Guilde de la LumiŠre attire les Chercheurs fascin‚s par la lumiŠre et la couleur. Elle aveugle et br–le ses ennemis … courte distance.
+END
+
+SSPELL1
+Les Sorciers du Firmament invoquent les SphŠres de l'au-del… pour cr‚er de puissants sorts en canalisant leur ‚nergie.
+END
+
+LTRAIN1
+Les Sorciers Invocateurs peuvent combattre … distance en invoquant l'aide du rŠgne animal.
+END
+
+LTRAIN2
+Le Repaire de la Bˆte entraŒne ses disciples … se m‚tamorphoser en cr‚atures du monde physique, pour se procurer des armures et augmenter leur force.
+END
+;Le repaire de la Bˆte entraŒne ses disciples … se m‚tamorphoser en cr‚ature
+;qui terroriseront les ennemis … proximit‚.
+
+LTRAIN3
+Les Fa‡onneurs du Vent modŠlent le Tone en reflets de leur propre forme qui ont une puissance de destruction prodigieuse … courte distance.
+END
+;Le souffle incessant du Vent pique les ennemis afin de les affaiblir.
+
+LSPELL1
+Les Druides Enchanteurs invoquent toutes les ‚nergies vitales pour que leurs voeux se transforment en magie.
+END
+
+SUPPLY0
+Procr‚ateur physique - Enorme masse sombre surgissant des bassins de Tone. Elle engendre les spores et les rejetons du L‚viathan du monde physique.
+END
+
+SUPPLY1
+Procr‚ateur surnaturel - Essaim de Feu g‚ant tirant directement son ‚nergie des bassins de Tone. Il g‚nŠre de puissantes cr‚atures surnaturelles.
+END
+
+SUPPLY2
+Procr‚ateur ‚th‚r‚ - Immense tour utilisant le pouvoir des bassins de Tone pour invoquer de f‚roces cr‚atures venues des confins du royaume ‚th‚r‚.
+END
+
+SUPPLY3
+Procr‚ateur naturel - Cr‚ature qui s'enracine dans les bassins de Tone. Etre gargantuesque qui engendre de dangereuses cr‚atures du royaume naturel.
+END
+
+POOLINFECT
+Bassin de Tone contamin‚ - Les spores du L‚viathan utilisent l'‚nergie de ce bassin pour se d‚velopper. Le bassin est obstru‚ par un nid de germes parasites du L‚viathan qui empˆche la diffusion du Tone.
+END
+
+POOL
+Bassin de Tone - Ce bassin qui diffuse du Tone est salutaire. Son Tone n'est pas diffus‚ dans votre tribu car cette derniŠre ne l'a pas r‚g‚n‚r‚.
+END
+
+PRIMEPOOL
+Bassin de Tone r‚g‚n‚r‚ - Ce bassin diffuse du Tone dans votre tribu depuis qu'elle l'a r‚g‚n‚r‚.
+END
+
+FEAT00
+Mantu le Pacifique - Mantu est un guerrier mythique. Il a command‚ une arm‚e qui aurait pu an‚antir le monde. Pour empˆcher cette horreur, Mantu se dresse … tout jamais entre les arm‚es.
+;Mantu le Pacifique - Mantu est une l‚gende, un guerrier mythique qui
+;combattait sans arme et sans armure. Selon la l‚gende, la maŒtrise de Mantu ‚tait telle
+;que, en utilisant de lents et imperceptibles changements d'attitude, il conduisait
+;ses ennemis … la d‚faite par leurs propres coups alors qu'il restait immobile.
+;Mantu a men‚ une arm‚e dans un combat gigantesque et futile qu'il savait conduire
+;… la destruction des deux camps et de tout l'univers. Plut“t que de laisser cela se produire,
+;Mantu utilisa ses dons pour emprisonner … jamais son corps en un lieu entre les deux arm‚es,
+; en maintenant deux artefacts qui amplifiŠrent son pouvoir d'immobilit‚.
+;Le glyphe de Ahn est trouv‚ grƒce … Mantu.
+;augmente l‚gŠrement la classe d'armure/r‚sistance aux coups de tous les Flotteurs
+;du premier type de Dojo dans la tribu. L'effet est permanent
+; (comme +1, non un pourcentage), pour la tribu qui a relev‚ Mantu.
+END
+
+FEAT01
+Amplificateur de Tone - Il recueille le pouvoir des ‚nergies surnaturelles de ce monde, cr‚ant une distorsion de la perception qui offre aux Flotteurs le spectacle d'autres royaumes.
+;Amplificateur de Tone - Cette machine fabriqu‚e par les Nouveaux Venus fut
+;consid‚r‚e comme ‚tant un ‚chec exp‚rimental.  L'amplificateur collecte les ‚nergies
+; surnaturelles au cour mˆme du monde, mais au lieu d'amplifier le flux de Tone
+; cela produit une distorsion du royaume qui procure aux Flotteurs des visions d'autres royaumes.
+;Le glyphe de Nos est r‚v‚l‚ par le champ de distorsion de la machine.
+;; octroie un nouveau niveau au deuxiŠme type de Dojo (un premier niveau s'il n'‚tait
+; pas disponible), et octroie … un Flotteur de premier niveau l'exp‚rience requise pour
+; passer au second niveau (pour un Flotteur de la tribu dans chaque Dojo de second type).
+; Effet unique.
+END
+
+FEAT02
+Le Vortex de Perception - Partie du monde existant exclusivement dans le royaume ‚th‚r‚. Le Vortex permet … ceux qui le per‡oivent de contempler l'Ame du monde, la conscience du Tone.
+;Le Vortex de Perception - Le Vortex est un ph‚nomŠne naturel de ce monde. 
+; Il fait partie du royaume ‚th‚r‚. Le Vortex permet aux Flotteurs qui le per‡oivent
+;de plonger dans un ‚tat de transe et de contempler l'Ame du monde, la conscience du Tone.
+; Le glyphe de M‚n‚ est trouv‚ en scrutant dans le Vortex.
+; ; octroie un nouveau niveau au premier type de Dojo si cela est possible, et donne … un Flotteur
+; de premier niveau l'exp‚rience requise pour passer au second niveau (pour un Flotteur de la tribu ;dans chaque Dojo de premier type). Effet unique.
+END
+
+FEAT03
+L'ultime plante Respiria - DerniŠre Respiria connue. Cette plante intelligente diffuse un gaz charg‚ en Tone lorsqu'elle respire. Le gaz a attir‚ le L‚viathan qui a contamin‚ la plante.
+;L'ultime plante Respiria - une plante consciente … l'intelligence trŠs ancienne
+;qui ‚met un gaz … teneur ‚lev‚e en Tone, appel‚ Raam, lorsqu'elle
+;respire.  Cette plante est la premiŠre espŠce connue et la plus ancienne.
+; Elle se reproduit grƒce … des spores.
+;La plante Respiria est fertile lorsqu'elle sommeille. La fertilisation par des spores
+;r‚veille la femelle Respiria pour un millier d'ann‚es pendant lequel elle
+;donnera la vie jusqu'… douze fois.
+;Cette Respiria, la derniŠre connue, est une femelle.  Le raam qu'elle exhale
+; a attir‚ le L‚viathan. Elle sommeille, affaiblie par la contamination du L‚viathan.
+END
+; Le glyphe de Tra est lib‚r‚ par la plante Respiria lorsqu'elle se r‚veille.
+;; augmente l‚gŠrement la force de tous les Flotteurs entraŒn‚s du second type de Dojo
+; de la tribu. L'effect est permanent (comme +1, non un  pourcentage) pour la tribu qui a r‚veill‚ la plante.
+
+FEAT04
+Dr‚est l'Ombre des Marais - C'‚tait une ombre d'‚pouvante, un cauchemar, jusqu'… ce qu'un Flotteur sorcier ne la transforme. Ce n'est plus une menace, seulement une ƒme en peine.
+;Dr‚est l'Ombre des Marais - Dr‚est ‚tait une ombre d'‚pouvante, une manifestation ‚th‚r‚e
+; de la fureur du L‚viathan, un cauchemar venu … la vie. 
+;Elle fit des Flotteurs de la Forˆt sa proie, mais un jour elle
+; s'approcha d'un Flotteur qui s'av‚rait ˆtre un grand Shaman.
+;Le Shaman glissa dans le royaume ‚th‚r‚ et donna … l'ombre
+;une identit‚ ind‚pendante du L‚viathan.  Maintenant appel‚e Dr‚est,
+;l'ombre Šre dans le marais Dr‚en, ou reste immobile
+;dans sa taniŠre. Bien que Dr‚est soit plus puissante que jamais,
+;il n'y a plus de menace ou de terreur en elle, juste une solitude hant‚e.
+END
+; Dr‚est garde le glyphe de  Dr‚e.
+
+FEAT05
+Le Krajin - Cr‚ature mythique et noble. Dans les contes, le Krajin ‚tait le dernier repr‚sentant de sa race, mort en d‚fendant un jeune Flotteur ‚gar‚. Son rugissement ‚tait terrible.
+END
+; Tuka - courage
+;; offre un bonus de combat … un des types de Dojo de la tribu.
+
+FEAT06
+La BibliothŠque des L‚gendes - Elle pr‚serve les m‚moires et l‚gendes les plus anciennes des Flotteurs. Il faut deux cl‚s pour percer … jour les secrets de la bibliothŠque.
+END
+
+; Le Dran
+FEAT07
+La Porte des Songes - En franchissant la Porte des Songes, les prophŠtes entrent en transe et peuvent ainsi r‚pandre leur conscience partout dans le monde.
+END
+
+; Mef - compassion
+FEAT08
+M‚moire des ancˆtres - Cet objet magique permet de communiquer avec les esprits des Flotteurs ancestraux qui se sont r‚unis dans les puissantes colonnes surnaturelles du Noyau. 
+END
+; Tal - 
+;int‚grit‚, v‚rit‚
+
+FEAT09
+Le Temple des Tempˆtes - Le Temple offre … toutes les cr‚atures un lieu o— renforcer le lien qui les unit au monde, en purifiant leur flux de Tone et en augmentant leur force de vie.
+END
+; Lon - libert‚
+;; les ouvriers inactifs de la tribu viennent ici pour gu‚rir lentement.
+
+FEAT10
+Disque du Temps - Ce disque d‚forme le cycle temporel en ralentissant l'‚coulement du temps. Il absorbe le temps, accumulant ainsi instantan‚ment des milliers d'ann‚es.
+; La tribu qui active le disque est effectivement acc‚l‚r‚e.
+;Disque du Temps - Il y a longtemps que l'on a oubli‚ ou, quand et par qui le Disque du
+; Temps a ‚t‚ cr‚‚.  Activ‚, il g‚nŠre une intense distorsion temporelle, ralentissant
+; l'‚coulement du temps local. Il absorbe le temps lui-mˆme, vieillissant instantan‚ment 
+;de milliers d'ann‚es lorsqu'il est activ‚. Le ralentissement du temps que le disque cr‚e
+; n'affecte pas la	tribu qui l'a activ‚. Ainsi cette derniŠre se d‚place relativement plus vite
+;que toute autre chose.
+END
+; Lod - foi
+;; Acc‚lŠre un petit peu la tribu (peut-ˆtre seulement les ouvriers), d'un pourcentage qu'il est raisonnable ;d'appliquer … la tribu. L'effet est permanent.
+
+FEAT11
+Ob‚lisque des Morts - Renforc‚e par les esprits des morts, cette tour d‚rive dans l'‚ternit‚ du monde ‚th‚r‚. Elle est transposable dans d'autres mondes … l'aide d'un rituel ancien.
+END
+; Vinya - Vinya vous libŠre de vos besoins et de vos d‚sirs.
+
+FEAT12
+Le Repaire du Fou - Structure vivante, ‚difi‚e par le Fou, ancien Flotteur qui a choisi de poursuivre de dangereuses recherches dans les profondeurs du royaume surnaturel.
+END
+; Grem - respect
+
+FEAT13
+L'Arche de Norasten
+END
+; Phet - vous permet de tenir vos promesses. 
+
+BRIDGE
+AccŠs de Pont - D‚limite l'endroit o— les liens de force relient une Œle … la suivante. Ces liens peuvent ˆtre consolid‚s grƒce … une cl‚, ce qui permet aux Flotteurs d'explorer les mondes.
+END
+
+ENDTEXT

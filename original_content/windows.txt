@@ -1,0 +1,1100 @@
+;------------------------
+; shape cache buffer size
+
+SHAPECACHE_SIZE   4000000
+
+;------------------
+; Starting state: 0
+
+WINTYPE        3
+NAME           BACKGRND
+STATE          0 8
+SHAPEID        TITSCRN
+SHAPEFRAME     0
+MOUSEFOCUS     0
+PANE           0 0 639 479
+SENDMESSAGE    0 0 0
+MSGDEST        WINMGR              
+CONTREDRAW     0
+
+WINTYPE        1
+NAME           RESUME
+STATE          0
+SHAPEID        TITSCRN
+SHAPEFRAME     2
+MOUSEFOCUS     1
+PANE           262 269 377 332
+SENDMESSAGE    2001 0 0
+MSGDEST        MASTER
+
+WINTYPE        1
+NAME           NEWGAME
+STATE          0
+SHAPEID        TITSCRN
+SHAPEFRAME     4
+MOUSEFOCUS     1
+PANE           99 337 240 399
+SENDMESSAGE    5 0 0
+MSGDEST        WINMGR
+
+WINTYPE        1
+NAME           LOADGAME
+STATE          0
+SHAPEID        TITSCRN
+SHAPEFRAME     6
+MOUSEFOCUS     1
+PANE           402 337 540 399
+SENDMESSAGE    1 4 0
+MSGDEST        WINMGR
+
+WINTYPE        1
+NAME           EXITAPP
+STATE          0
+SHAPEID        TITSCRN
+SHAPEFRAME     8
+MOUSEFOCUS     1
+PANE           255 407 375 469
+SENDMESSAGE    2 0 0
+MSGDEST        WINMGR
+
+;------------------
+; New Game state: 1
+
+
+WINTYPE        3
+NAME           NEWGMBKG
+STATE          1
+SHAPEID        NEWBACK
+SHAPEFRAME     0
+MOUSEFOCUS     0
+PANE           0 0 639 479
+SENDMESSAGE    0 0 0
+MSGDEST        WINMGR
+CONTREDRAW     0
+
+WINTYPE        4
+NAME           NEWGAMWND
+STATE          1
+SHAPEID        NEWBUTT
+SHAPEFRAME     0
+MOUSEFOCUS     1
+PANE           0 0 639 479
+SENDMESSAGE    0 0 0
+MSGDEST        MASTER
+
+WINTYPE        1
+NAME           EXITNEWGAME
+STATE          1
+SHAPEID        NEWBUTT
+SHAPEFRAME     1
+MOUSEFOCUS     1
+PANE           7 423 75 465
+SENDMESSAGE    1 0 0
+MSGDEST        WINMGR
+
+WINTYPE        1
+NAME           WORLDSIZE
+STATE          1
+SHAPEID        NEWBUTT
+SHAPEFRAME     3
+MOUSEFOCUS     1
+PANE           76 423 142 464
+SENDMESSAGE    53 0 0
+MSGDEST        MASTER
+
+WINTYPE        1
+NAME           TRIBE0
+STATE          1
+SHAPEID        NEWBUTT
+SHAPEFRAME     5
+MOUSEFOCUS     1
+PANE           143 443 195 476
+SENDMESSAGE    60 -1 0
+MSGDEST        MASTER
+
+WINTYPE        1
+NAME           TRIBE1
+STATE          1
+SHAPEID        NEWBUTT
+SHAPEFRAME     7
+MOUSEFOCUS     1
+PANE           196 445 250 474
+SENDMESSAGE    61 -1 0
+MSGDEST        MASTER
+
+WINTYPE        1
+NAME           TRIBE2
+STATE          1
+SHAPEID        NEWBUTT
+SHAPEFRAME     9
+MOUSEFOCUS     1
+PANE           391 441 443 474
+SENDMESSAGE    62 -1 0
+MSGDEST        MASTER
+
+WINTYPE        1
+NAME           TRIBE3
+STATE          1
+SHAPEID        NEWBUTT
+SHAPEFRAME     11
+MOUSEFOCUS     1
+PANE           444 440 494 476
+SENDMESSAGE    63 -1 0
+MSGDEST        MASTER
+
+
+WINTYPE        1
+NAME           DIFFICULTY
+STATE          1
+SHAPEID        NEWBUTT
+SHAPEFRAME     13
+MOUSEFOCUS     1
+PANE           495 420 562 464
+SENDMESSAGE    55 0 0
+MSGDEST        MASTER
+
+WINTYPE        1
+NAME           BEGINGAME
+STATE          1
+SHAPEID        NEWBUTT
+SHAPEFRAME     15
+MOUSEFOCUS     1
+PANE           564 419 633 464
+SENDMESSAGE    52 0 0
+MSGDEST        MASTER
+
+
+;--------------------
+; World View state: 2
+
+WINTYPE        3
+NAME           MAPBKG
+STATE          2
+SHAPEID        MAPBACK
+SHAPEFRAME     0
+MOUSEFOCUS     0
+PANE           0 0 639 479
+SENDMESSAGE    0 0 0
+MSGDEST        WINMGR
+CONTREDRAW     1
+               
+
+WINTYPE        11
+NAME           WORLDVIEW
+STATE          2
+SHAPEID        NONE
+SHAPEFRAME     -1
+MOUSEFOCUS     1
+PANE           0 0 639 479
+SENDMESSAGE    0 0 0
+MSGDEST        WINMGR
+
+;---------------------
+; Island View state: 3
+
+WINTYPE        10
+NAME           ISLEVIEW
+STATE          3
+SHAPEID        NONE
+SHAPEFRAME     -1
+MOUSEFOCUS     1
+PANE           0 0 639 319
+SENDMESSAGE    0 0 0
+MSGDEST        MASTER
+
+WINTYPE        2
+NAME           ISLETMP
+STATE          3
+SHAPEID        ISLETEMP
+SHAPEFRAME     0
+MOUSEFOCUS     0
+PANE           0 320 639 479
+SENDMESSAGE    0 0 0
+MSGDEST        MASTER
+
+WINTYPE        16
+NAME           IWLilMap
+STATE          3
+SHAPEID        LILMAP
+SHAPEFRAME     0
+MOUSEFOCUS     1
+PANE           192 328 447 359
+SENDMESSAGE    0 0 0
+MSGDEST        MASTER
+
+WINTYPE        39
+NAME           IWEffList    // Debug for special effects
+STATE          3
+SHAPEID        TEMPHOLE
+SHAPEFRAME     1
+MOUSEFOCUS     1
+PANE           192 368 330 471
+SENDMESSAGE    0 0 0
+MSGDEST        MASTER
+
+WINTYPE        40
+NAME           IWSFXList    // Debug for special effects
+STATE          3
+SHAPEID        TEMPHOLE
+SHAPEFRAME     1
+MOUSEFOCUS     1
+PANE           331 368 447 471
+SENDMESSAGE    0 0 0
+MSGDEST        MASTER
+
+
+WINTYPE        21
+NAME           IWTasks         // Disp island task list
+STATE          3
+SHAPEID        TEMPHOLE
+SHAPEFRAME     1
+MOUSEFOCUS     0
+PANE           192 368 447 471
+SENDMESSAGE    0 0 0
+MSGDEST        MASTER
+
+WINTYPE        1
+NAME           scrollup
+STATE          3
+SHAPEID        scroll
+SHAPEFRAME     0
+MOUSEFOCUS     1
+PANE           435 368 447 419
+SENDMESSAGE    6000 0 0
+MSGDEST        MASTER
+
+WINTYPE        1
+NAME           scrolldn
+STATE          3
+SHAPEID        scroll
+SHAPEFRAME     2
+MOUSEFOCUS     1
+PANE           435 420 447 471
+SENDMESSAGE    6001 0 0
+MSGDEST        MASTER
+
+WINTYPE        1
+NAME           escrollup
+STATE          3
+SHAPEID        scroll
+SHAPEFRAME     0
+MOUSEFOCUS     1
+PANE           318 368 330 419
+SENDMESSAGE    6002 0 0
+MSGDEST        MASTER
+
+WINTYPE        1
+NAME           escrolldn
+STATE          3
+SHAPEID        scroll
+SHAPEFRAME     2
+MOUSEFOCUS     1
+PANE           318 420 330 471
+SENDMESSAGE    6003 0 0
+MSGDEST        MASTER
+
+
+WINTYPE        22
+NAME           IWTaskOptions   // Disp options for selected task
+STATE          3
+SHAPEID        TEMPHOLE
+SHAPEFRAME     7
+MOUSEFOCUS     0
+PANE           456 396 631 471
+SENDMESSAGE    0 0 0
+MSGDEST        MASTER
+
+WINTYPE        32
+NAME           IWTaskInfo  
+STATE          3
+SHAPEID        TEMPHOLE
+SHAPEFRAME     2
+MOUSEFOCUS     0
+PANE           456 328 631 395
+SENDMESSAGE    0 0 0
+MSGDEST        MASTER
+
+//WINTYPE        44
+//NAME           TaskPRIORITY    
+//STATE          3
+//SHAPEID        PRIOR
+//SHAPEFRAME     0
+//MOUSEFOCUS     1
+//PANE           456 429 588 471
+//SENDMESSAGE    4000 0 0
+//MSGDEST        MASTER
+
+WINTYPE        1
+NAME           TaskNorm
+STATE          3
+SHAPEID        PRIOR
+SHAPEFRAME     0
+MOUSEFOCUS     1
+PANE           456 429 500 471
+SENDMESSAGE    4000 1 0
+MSGDEST        MASTER
+
+WINTYPE        1
+NAME           TaskHigh
+STATE          3
+SHAPEID        PRIOR
+SHAPEFRAME     2
+MOUSEFOCUS     1
+PANE           500 429 544 471
+SENDMESSAGE    4000 2 0
+MSGDEST        MASTER
+
+WINTYPE        1
+NAME           TaskExcl
+STATE          3
+SHAPEID        PRIOR
+SHAPEFRAME     4
+MOUSEFOCUS     1
+PANE           544 429 588 471
+SENDMESSAGE    4000 3 0
+MSGDEST        MASTER
+
+WINTYPE        1
+NAME           TaskKill  // Task Option - Kill Task
+STATE          3
+SHAPEID        PRIOR
+SHAPEFRAME     6
+MOUSEFOCUS     1
+PANE           593 431 629 469
+SENDMESSAGE    4003 0 0
+MSGDEST        MASTER
+
+WINTYPE        23
+NAME           IWTrade 
+STATE          3
+SHAPEID        TEMPHOLE
+SHAPEFRAME     1
+MOUSEFOCUS     1
+PANE           192 368 447 471
+SENDMESSAGE    0 0 0
+MSGDEST        MASTER
+
+WINTYPE        1
+NAME           TradeZERO 
+STATE          3
+SHAPEID        TRADE
+SHAPEFRAME     2
+MOUSEFOCUS     1
+;PANE           345 431 377 463
+PANE           390 431 417 463
+SENDMESSAGE    4010 0 0
+MSGDEST        MASTER
+
+WINTYPE        1
+NAME           TradeDOIT 
+STATE          3
+SHAPEID        TRADE
+SHAPEFRAME     0
+MOUSEFOCUS     1
+;PANE           380 431 412 463
+PANE           420 431 452 463
+SENDMESSAGE    4011 0 0
+MSGDEST        MASTER
+
+WINTYPE        24
+NAME           IWDiplomacy
+STATE          3
+SHAPEID        TEMPHOLE
+SHAPEFRAME     1
+MOUSEFOCUS     1
+PANE           192 368 447 471
+SENDMESSAGE    0 0 0
+MSGDEST        MASTER
+
+
+//-------------------------------------------------
+
+WINTYPE        17
+NAME           IWRealm
+STATE          3
+SHAPEID        ISREALM
+SHAPEFRAME     0
+MOUSEFOCUS     0
+PANE           0 320 155 471
+SENDMESSAGE    0 0 0
+MSGDEST        MASTER
+
+WINTYPE        33
+NAME           IWFltInfo
+STATE          3
+SHAPEID        TEMPHOLE
+SHAPEFRAME     2
+MOUSEFOCUS     0
+PANE           456 328 631 395
+SENDMESSAGE    0 0 0
+MSGDEST        MASTER
+
+
+WINTYPE        18               // Allow user to pick building to construct
+NAME           IWConstruct
+STATE          3
+SHAPEID        TEMPHOLE
+SHAPEFRAME     1
+MOUSEFOCUS     1
+PANE           192 368 447 471
+SENDMESSAGE    0 0 0
+MSGDEST        MASTER
+
+
+WINTYPE        28
+NAME           IWConstructInfo  // Info on selected bld in IWConstruct
+STATE          3
+SHAPEID        TEMPHOLE
+SHAPEFRAME     2
+MOUSEFOCUS     0
+PANE           456 328 631 471
+SENDMESSAGE    0 0 0
+MSGDEST        MASTER
+
+WINTYPE        27               // Display graphic info for selected location
+NAME           IWLocInfo
+STATE          3
+SHAPEID        TEMPHOLE
+SHAPEFRAME     1
+MOUSEFOCUS     1
+PANE           192 368 447 471
+SENDMESSAGE    0 0 0
+MSGDEST        MASTER
+
+WINTYPE        34               // For moving buildings
+NAME           IWHallMove
+STATE          3
+SHAPEID        THBUTT
+SHAPEFRAME     5
+MOUSEFOCUS     1
+PANE           375 435 430 469
+SENDMESSAGE    0 0 0
+MSGDEST        MASTER
+
+WINTYPE        34               // For moving buildings
+NAME           IWMove
+STATE          3
+SHAPEID        THBUTT
+SHAPEFRAME     5
+MOUSEFOCUS     1
+PANE           243 440 298 471
+SENDMESSAGE    0 0 0
+MSGDEST        MASTER
+
+WINTYPE        26               // Give user options for selected location
+NAME           IWLocControl
+STATE          3
+SHAPEID        TEMPHOLE
+SHAPEFRAME     7
+MOUSEFOCUS     1
+PANE           456 396 631 471
+SENDMESSAGE    0 0 0
+MSGDEST        MASTER
+
+WINTYPE        1                // cycle button for build window
+NAME           BuildCycle
+STATE          3
+SHAPEID        scarrow
+SHAPEFRAME     0
+MOUSEFOCUS     1
+PANE           282 368 358 391
+SENDMESSAGE    69 0 0
+MSGDEST        IWConstruct
+
+WINTYPE        31
+NAME           IWTextInfo 
+STATE          3
+SHAPEID        TEMPHOLE
+SHAPEFRAME     2
+MOUSEFOCUS     1
+PANE           456 328 631 395
+SENDMESSAGE    0 0 0
+MSGDEST        MASTER
+
+WINTYPE        31
+NAME           IWTextInfo2 
+STATE          3
+SHAPEID        TEMPHOLE
+SHAPEFRAME     7
+MOUSEFOCUS     1
+PANE           456 396 631 471
+SENDMESSAGE    0 0 0
+MSGDEST        MASTER
+
+WINTYPE        29
+NAME           IWInventory      
+STATE          3
+SHAPEID        TEMPHOLE
+SHAPEFRAME     1
+MOUSEFOCUS     1
+PANE           192 368 447 471
+SENDMESSAGE    0 0 0
+MSGDEST        MASTER
+
+WINTYPE        1                // cycle button for inventory
+NAME           InvCycle
+STATE          3
+SHAPEID        scarrow
+SHAPEFRAME     0
+MOUSEFOCUS     1
+PANE           282 368 358 391
+SENDMESSAGE    69 0 0
+MSGDEST        IWInventory
+
+WINTYPE        30
+NAME           IWGlyphs         
+STATE          3
+SHAPEID        TEMPHOLE
+SHAPEFRAME     1
+MOUSEFOCUS     1
+PANE           192 368 447 471
+SENDMESSAGE    0 0 0
+MSGDEST        MASTER
+
+// Below are the "main" buttons that never go away - map etc...
+
+WINTYPE        1
+NAME           GOTOMAP
+STATE          3
+SHAPEID        mainbutt
+SHAPEFRAME     0
+MOUSEFOCUS     1
+PANE           12 331 49 370
+SENDMESSAGE    2000 0 0
+MSGDEST        MASTER
+
+WINTYPE        45
+NAME           PANIC
+STATE          3
+SHAPEID        mainbutt
+SHAPEFRAME     2
+MOUSEFOCUS     1
+PANE           111 331 148 370
+SENDMESSAGE    2002 0 0
+MSGDEST        MASTER
+
+WINTYPE        1
+NAME           TOGREALM
+STATE          3
+SHAPEID        mainbutt
+SHAPEFRAME     4
+MOUSEFOCUS     1
+PANE           12 431 49 470
+SENDMESSAGE    2003 0 0
+MSGDEST        MASTER
+
+WINTYPE        1
+NAME           TASKLIST
+STATE          3
+SHAPEID        mainbutt
+SHAPEFRAME     6
+MOUSEFOCUS     1
+PANE           111 431 148 470
+SENDMESSAGE    2005 0 0
+MSGDEST        MASTER
+
+WINTYPE        48
+NAME           CLIPSEL1
+STATE          3
+SHAPEID        CLIP
+SHAPEFRAME     0
+MOUSEFOCUS     1
+PANE           160 330 181 338
+SENDMESSAGE    7001 0 0
+MSGDEST        MASTER
+
+WINTYPE        48
+NAME           CLIPSEL2
+STATE          3
+SHAPEID        CLIP
+SHAPEFRAME     4
+MOUSEFOCUS     1
+PANE           160 341 181 349
+SENDMESSAGE    7002 0 0
+MSGDEST        MASTER
+
+WINTYPE        48
+NAME           CLIPSEL3
+STATE          3
+SHAPEID        CLIP
+SHAPEFRAME     8
+MOUSEFOCUS     1
+PANE           160 352 181 360
+SENDMESSAGE    7003 0 0
+MSGDEST        MASTER
+
+WINTYPE        5
+NAME           CLIPBD1
+STATE          3
+SHAPEID        TEMPHOLE
+SHAPEFRAME     4
+MOUSEFOCUS     1
+PANE           159 364 183 398
+SENDMESSAGE    3001 0 0
+MSGDEST        MASTER
+
+WINTYPE        5
+NAME           CLIPBD2
+STATE          3
+SHAPEID        TEMPHOLE
+SHAPEFRAME     5
+MOUSEFOCUS     1
+PANE           159 400 183 434
+SENDMESSAGE    3002 0 0
+MSGDEST        MASTER
+
+WINTYPE        5
+NAME           CLIPBD3
+STATE          3
+SHAPEID        TEMPHOLE
+SHAPEFRAME     6
+MOUSEFOCUS     1
+PANE           159 436 183 471
+SENDMESSAGE    3003 0 0
+MSGDEST        MASTER
+
+
+
+
+// Below are the Cmd Windows used to interact with a building.
+// There are a shitload of them - one for every possible button
+// that can show up when a building is selected.  Their SendParam1
+// is setup by the island master function.
+
+               
+WINTYPE        41
+NAME           BC_OnOff
+STATE          3
+SHAPEID        BLDCMD
+SHAPEFRAME     19
+MOUSEFOCUS     1
+PANE           355 390 426 461
+SENDMESSAGE    101 0 0
+MSGDEST        MASTER
+NSTATES		   2
+HILITEFRAME	   21
+
+WINTYPE        1
+NAME           BC_Move
+STATE          3
+SHAPEID        BLDCMD
+SHAPEFRAME     15
+MOUSEFOCUS     1
+PANE           345 431 377 463
+SENDMESSAGE    101 0 0
+MSGDEST        MASTER
+
+WINTYPE        42
+NAME           BC_Upgrade
+STATE          3
+SHAPEID        UPGRADE
+SHAPEFRAME     0
+MOUSEFOCUS     1
+PANE           246 400 270 425
+SENDMESSAGE    101 0 0
+MSGDEST        MASTER
+NSTATES		   13
+HILITEFRAME	   13
+
+WINTYPE        43
+NAME           BC_Repair
+STATE          3
+SHAPEID        REPAIR
+SHAPEFRAME     0
+MOUSEFOCUS     1
+PANE           249 370 270 390
+SENDMESSAGE    101 0 0
+MSGDEST        MASTER
+NSTATES		   11
+HILITEFRAME	   11
+
+WINTYPE        46
+NAME           BC_Obtain
+STATE          3
+SHAPEID        BLDCMD
+SHAPEFRAME     15
+MOUSEFOCUS     1
+PANE           483 380 604 469
+SENDMESSAGE    101 0 0
+MSGDEST        MASTER
+               
+WINTYPE        35               // trainbld stockpile ct
+NAME           BC_TrnStkC
+STATE          3
+SHAPEID        THBUTT
+SHAPEFRAME     0
+MOUSEFOCUS     1
+PANE           192 439 243 471  -4 0 
+SENDMESSAGE    101 0 0
+MSGDEST        MASTER
+NSTATES		   2
+HILITEFRAME	   4
+
+WINTYPE        35               // trainbld stockpile mt
+NAME           BC_TrnStkM
+STATE          3
+SHAPEID        THBUTT
+SHAPEFRAME     0
+MOUSEFOCUS     1
+PANE           215 439 247 471
+SENDMESSAGE    101 0 0
+MSGDEST        MASTER
+NSTATES		   2
+HILITEFRAME	   4
+
+WINTYPE        35               // town hall stockpile bt
+NAME           BC_HallStkB
+STATE          3
+SHAPEID        THBUTT
+SHAPEFRAME     1
+MOUSEFOCUS     1
+PANE           191 384 223 416
+SENDMESSAGE    101 0 0
+MSGDEST        MASTER
+NSTATES		   3
+HILITEFRAME	   4
+
+WINTYPE        35               // town hall stockpile ct
+NAME           BC_HallStkC
+STATE          3
+SHAPEID        THBUTT
+SHAPEFRAME     1
+MOUSEFOCUS     1
+PANE           191 412 223 444
+SENDMESSAGE    101 0 0
+MSGDEST        MASTER
+NSTATES		   3
+HILITEFRAME	   4
+
+WINTYPE        35               // townhall stockpile mt
+NAME           BC_HallStkM
+STATE          3
+SHAPEID        THBUTT
+SHAPEFRAME     1
+MOUSEFOCUS     1
+PANE           191 440 223 471
+SENDMESSAGE    101 0 0
+MSGDEST        MASTER
+NSTATES		   3
+HILITEFRAME	   4
+
+WINTYPE        1
+NAME           BC_GenInfo
+STATE          3
+SHAPEID        thall
+SHAPEFRAME     0
+MOUSEFOCUS     1
+PANE           460 418 494 464
+SENDMESSAGE    101 0 0
+MSGDEST        MASTER
+
+WINTYPE        1
+NAME           BC_Storage
+STATE          3
+SHAPEID        thall
+SHAPEFRAME     2
+MOUSEFOCUS     1
+PANE           495 418 527 464
+SENDMESSAGE    101 0 0
+MSGDEST        MASTER
+
+WINTYPE        1
+NAME           BC_Knowledge
+STATE          3
+SHAPEID        thall
+SHAPEFRAME     4
+MOUSEFOCUS     1
+PANE           519 418 559 464
+SENDMESSAGE    101 0 0
+MSGDEST        MASTER
+               
+WINTYPE        1
+NAME           BC_Trade
+STATE          3
+SHAPEID        thall
+SHAPEFRAME     8
+MOUSEFOCUS     1
+PANE           581 418 627 464
+SENDMESSAGE    101 0 0
+MSGDEST        MASTER
+               
+WINTYPE        1
+NAME           BC_Diplomacy
+STATE          3
+SHAPEID        thall
+SHAPEFRAME     6
+MOUSEFOCUS     1
+PANE           560 418 589 464
+SENDMESSAGE    101 0 0
+MSGDEST        MASTER
+
+WINTYPE        1
+NAME           BC_Recall
+STATE          3
+SHAPEID        TRAINB
+SHAPEFRAME     4
+MOUSEFOCUS     1
+PANE           527 413 572 471
+SENDMESSAGE    101 0 0
+MSGDEST        MASTER
+
+WINTYPE        1
+NAME           BC_AttackFlt
+STATE          3
+SHAPEID        TRAINB
+SHAPEFRAME     6
+MOUSEFOCUS     1
+PANE           565 404 597 444
+SENDMESSAGE    101 0 0
+MSGDEST        MASTER
+               
+WINTYPE        1
+NAME           BC_AttackLoc
+STATE          3
+SHAPEID        TRAINB
+SHAPEFRAME     8
+MOUSEFOCUS     1
+PANE           600 414 631 471 
+SENDMESSAGE    101 0 0
+MSGDEST        MASTER
+
+WINTYPE        1
+NAME           BC_DefendFlt
+STATE          3
+SHAPEID        TRAINB
+SHAPEFRAME     2
+MOUSEFOCUS     1
+PANE           487 402 534 452  0 -3
+SENDMESSAGE    101 0 0
+MSGDEST        MASTER
+
+WINTYPE        1
+NAME           BC_DefendArea
+STATE          3
+SHAPEID        TRAINB
+SHAPEFRAME     0
+MOUSEFOCUS     1
+PANE           453 438 507 471
+SENDMESSAGE    101 0 0
+MSGDEST        MASTER
+               
+WINTYPE        47
+NAME           BC_UpgSpread
+STATE          3
+SHAPEID        UPGRADE
+SHAPEFRAME     0
+MOUSEFOCUS     1
+PANE           246 400 270 425
+SENDMESSAGE    101 0 0
+MSGDEST        MASTER
+NSTATES		   13
+HILITEFRAME	   13
+
+
+WINTYPE        1
+NAME           BC_Spell1
+STATE          3
+SHAPEID        SPELLBUT
+SHAPEFRAME     0
+MOUSEFOCUS     1
+PANE           527 404 553 436
+SENDMESSAGE    101 0 0
+MSGDEST        MASTER
+               
+WINTYPE        1
+NAME           BC_Spell2
+STATE          3
+SHAPEID        SPELLBUT
+SHAPEFRAME     0
+MOUSEFOCUS     1
+PANE           553 404 579 436
+SENDMESSAGE    101 0 0
+MSGDEST        MASTER
+
+WINTYPE        1
+NAME           BC_Spell3
+STATE          3
+SHAPEID        SPELLBUT
+SHAPEFRAME     -1
+MOUSEFOCUS     1
+PANE           579 404 605 436
+SENDMESSAGE    101 0 0
+MSGDEST        MASTER
+               
+WINTYPE        1
+NAME           BC_Spell4
+STATE          3
+SHAPEID        SPELLBUT
+SHAPEFRAME     0
+MOUSEFOCUS     1
+PANE           605 404 631 436
+SENDMESSAGE    101 0 0
+MSGDEST        MASTER
+
+WINTYPE        1
+NAME           BC_Spell5
+STATE          3
+SHAPEID        SPELLBUT
+SHAPEFRAME     0
+MOUSEFOCUS     1
+PANE           527 437 553 469
+SENDMESSAGE    101 0 0
+MSGDEST        MASTER
+               
+WINTYPE        1
+NAME           BC_Spell6
+STATE          3
+SHAPEID        SPELLBUT
+SHAPEFRAME     0
+MOUSEFOCUS     1
+PANE           553 437 579 469
+SENDMESSAGE    101 0 0
+MSGDEST        MASTER
+
+WINTYPE        1
+NAME           BC_Spell7
+STATE          3
+SHAPEID        SPELLBUT
+SHAPEFRAME     0
+MOUSEFOCUS     1
+PANE           579 437 605 469
+SENDMESSAGE    101 0 0
+MSGDEST        MASTER
+               
+WINTYPE        1
+NAME           BC_Spell8
+STATE          3
+SHAPEID        SPELLBUT
+SHAPEFRAME     0
+MOUSEFOCUS     1
+PANE           605 437 631 469
+SENDMESSAGE    101 0 0
+MSGDEST        MASTER
+               
+;-------------------------
+; Load/Save state: 4 and 5
+
+
+WINTYPE        2
+NAME           LOADTMP
+STATE          4 5
+SHAPEID        LOADSAVE
+SHAPEFRAME     0
+MOUSEFOCUS     0
+PANE           0 0 639 479
+SENDMESSAGE    0 0 0
+MSGDEST        MASTER
+
+WINTYPE        14
+NAME           LOADSAVE
+STATE          4 5
+SHAPEID        LOADSAVE
+SHAPEFRAME     1
+MOUSEFOCUS     0
+PANE           0 0 639 479
+SENDMESSAGE    1 0 0
+MSGDEST        WINMGR
+
+
+;---------------
+; Movie state: 6
+
+WINTYPE        12
+NAME           INTROMOVIE
+STATE          6
+SHAPEID        NONE
+SHAPEFRAME     -1
+MOUSEFOCUS     0
+PANE           0 0 639 479
+SENDMESSAGE    1 0 0
+MSGDEST        WINMGR
+MOVIENAME      intro.avi 
+
+
+;--------------------
+; StatusScreen (winning)  state: 7
+
+WINTYPE        3
+NAME           STATBKG
+STATE          7
+SHAPEID        ENDTEMP
+SHAPEFRAME     0
+MOUSEFOCUS     0
+PANE           0 0 639 479
+SENDMESSAGE    0 0 0
+MSGDEST        WINMGR
+CONTREDRAW     1
+
+WINTYPE        36
+NAME           ENDGPLAYER
+STATE          7
+SHAPEID        NONE
+SHAPEFRAME     0
+MOUSEFOCUS     0
+PANE           0 0 639 319
+SENDMESSAGE    0 0 0
+MSGDEST        MASTER
+
+WINTYPE        38
+NAME           ENDGTEXT
+STATE          7
+SHAPEID        NONE
+SHAPEFRAME     0
+MOUSEFOCUS     0
+PANE           211 15 427 134
+SENDMESSAGE    0 0 0
+MSGDEST        MASTER
+
+WINTYPE        37
+NAME           ENDGNONP0
+STATE          7
+SHAPEID        NONE
+SHAPEFRAME     0
+MOUSEFOCUS     0
+PANE           15 326 204 461
+SENDMESSAGE    0 0 0
+MSGDEST        MASTER
+
+WINTYPE        37
+NAME           ENDGNONP1
+STATE          7
+SHAPEID        NONE
+SHAPEFRAME     0
+MOUSEFOCUS     0
+PANE           223 326 412 461
+SENDMESSAGE    0 0 0
+MSGDEST        MASTER
+
+WINTYPE        37
+NAME           ENDGNONP2
+STATE          7
+SHAPEID        NONE
+SHAPEFRAME     0
+MOUSEFOCUS     0
+PANE           432 326 621 461
+SENDMESSAGE    0 0 0
+MSGDEST        MASTER
+
+
+;-----------------------
+; Windows in many states
+
+WINTYPE        13
+NAME           SHADE
+STATE          2 3
+SHAPEID        slidewin
+SHAPEFRAME     0
+MOUSEFOCUS     1
+PANE           0 0 639 0
+SENDMESSAGE    0 0 0
+MSGDEST        WINMGR
+OPENPANE       0 0 639 99
+
+
+
+
+END            -1
+
+
+
+

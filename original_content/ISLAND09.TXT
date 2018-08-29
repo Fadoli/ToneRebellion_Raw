@@ -1,0 +1,50 @@
+NUM_LOCATIONS 44
+
+
+;Number    X     Y   Type     Special_value
+
+ 0      2226   229   mdpad    0
+ 1      1999   139   mdpad    0
+ 2      1936   256   mdpad    0
+ 3      1688   285   mdpad    0
+ 4      1277   212   lgpad    0
+ 5      2078   301   lgpad    0
+ 6      2494   225   lgpad    0
+ 7      2371   137   tone     0
+ 8      1529   199   tone     0
+ 9       313   295   mdpad    0
+10       612   294   mdpad    0
+11      1927   184   mdpad    0
+12      2389   229   smpad    0
+13      2057   205   smpad    0
+14      1590   298   smpad    0
+15      1404   286   smpad    0
+16      1271   283   smpad    0
+17      1376   153   mdpad    0
+18       824   300   mdpad    0
+19       551   243   lgpad    0
+20       287   231   smpad    0
+21       149   251   smpad    0
+22       185   199   smpad    0
+23       245   193   smpad    0
+24      2133   142   mdpad    0
+25      2309   240   smpad    0
+26       951   159   smpad    0
+27       442   236   smpad    0
+28       223   232   mdpad    0
+29      1812   250   mdpad    0
+30       575   140   mdpad    0
+31       406   161   tone     0
+32        86   142   mdpad    0
+33       522    68   bridge   5
+34      1709    74   bridge   13
+35      2451    70   bridge   6
+36       989   225   tone     0
+37       753   223   lgpad    0
+38      1766   151   mdpad    0
+39      1637   159   lgpad    0
+40      1097   247   smpad    0
+41      1191    97   feature  0
+42      1096   147   feattrig 0
+43      1265   154   feattrig 1
+

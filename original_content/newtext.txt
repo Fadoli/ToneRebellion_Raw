@@ -1,0 +1,186 @@
+IVISIT
+Iles visit‚es
+END
+		
+LSTREN1
+L‚viathan peureux
+END
+
+LSTREN2
+L‚viathan joueur 
+END
+
+LSTREN3
+L‚viathan maussade
+END
+
+LSTREN4
+L‚viathan agressif
+END
+
+LSTREN5
+L‚viathan destructeur
+END
+
+POINTS
+Points
+END
+
+GLYPHS
+Glyphes
+END
+
+SHADSTR
+Cr‚atures vaincues
+END
+
+FLOTTRIB
+dans la tribu
+END
+
+FLOTLOSS
+ont ‚t‚ perdus 
+END
+
+RANK0
+1er Cercle
+END
+
+RANK1
+2Šme Cercle
+END
+
+RANK2
+3Šme Cercle
+END
+
+RANK3
+4Šme Cercle
+END
+
+RANK4
+5Šme Cercle
+END
+
+RANK5
+6Šme Cercle
+END
+
+RANK6
+7Šme Cercle
+END
+
+RANK7
+8Šme Cercle
+END
+
+RANK8
+9Šme Cercle
+END
+
+RANK9
+Cercle int‚rieur
+END
+
+TROFTHE
+Tribu des
+END
+
+INSERTCD
+Veuillez placer le CD-ROM de Tone Rebellion dans votre lecteur.
+END
+
+DXSOUND
+DirectX ne peut pas initialiser votre systŠme audio.
+END
+
+COLLART
+Les artefacts trouv‚s par votre tribu sont r‚unis ici, jusqu'… ce que vous ayez trouv‚ le lieu auquel chacun appartient.
+END
+
+GLYSTONE
+Les secrets permettant d'affronter le L‚viathan sont inscrits sur la pierre des Glyphes mystiques.
+END
+
+TRIDIP
+Vous pouvez activer et d‚sactiver la communication avec une autre tribu, 
+et d‚terminer le type de relations d‚sir‚es : hostiles ou amicales.
+END
+
+TRIASS
+Vous pouvez envoyer du Tone structurel, cristallin, ou magique.
+END
+
+TRDIPHI
+Amis/Ennemis
+END
+
+TRCOMHI
+Communiquer ? 
+END
+
+FLTADV
+Un Flotteur vient de passer au niveau sup‚rieur.
+END
+
+LEVIBRK
+Le L‚viathan a rompu
+END
+
+BOND0
+le premier lien
+END
+
+BOND1
+le deuxiŠme lien
+END
+
+BOND2
+le troisiŠme lien
+END
+
+BOND3
+le quatriŠme lien
+END
+
+BOND4
+le cinquiŠme lien
+END
+
+BOND5
+le sixiŠme lien
+END
+
+BOND6
+le septiŠme lien
+END
+
+BOND7
+le huitiŠme lien
+END
+
+AWAKE0
+Les Tarks s'‚veillent...
+END
+
+AWAKE1
+Les Zygons s'‚veillent...
+END
+
+AWAKE2
+Les Ceph‚ens s'‚veillent...
+END
+
+AWAKE3
+Les Dyla s'‚veillent...
+END
+
+LEFTGAM
+a quitt‚ la partie.
+END
+
+REVSING
+Revenir en mode un joueur.
+END
+
+ENDTEXT

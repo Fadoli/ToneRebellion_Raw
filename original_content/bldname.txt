@@ -1,0 +1,354 @@
+// This file contains the names for all tribal buildings.  The
+// order matches the PadItemType enumeration in pad.h
+//
+
+// Protector Buildings
+//
+BLDNAME
+G‚n‚rateur de Tone structurel        //    PIT_BuildToneProducer
+END
+
+BLDNAME
+Cr‚ateur de Tone magique          	 //    PIT_MagicToneProducer,
+END
+
+BLDNAME
+Producteur de Tone cristallin            //    PIT_CrystToneProducer,
+END
+
+BLDNAME
+N‚buliseur de Tone                  	 //    PIT_ToneTower,
+END
+
+BLDNAME
+Multiplicateur de flux de Tone           //    PIT_ToneRateEnricher,
+END
+
+BLDNAME
+Refuge du Clan                           //       PIT_GreatHall,
+END
+
+BLDNAME
+P‚piniŠre                   		 //    PIT_Hatchery,
+END
+
+BLDNAME
+Confr‚rie du Tentacule 			//    PIT_Recruiter1,
+END
+
+BLDNAME
+Contemplatif                           //    PIT_Recruiter2,
+END
+
+BLDNAME
+Conf‚d‚ration de l'Etoile	//    PIT_Recruiter3,
+END
+
+BLDNAME
+Soci‚t‚ des Magiciens	//    PIT_Spell1,
+END
+
+BLDNAME
+Sort de protection                //    PIT_Spell2,
+END
+
+BLDNAME
+Protecteur Type 1                 //    PIT_Spec1,
+END
+
+BLDNAME
+Protecteur Type 2                 //    PIT_Spec2,
+END
+
+BLDNAME
+Protecteur Type 3                 //    PIT_Spec3,
+END
+
+BLDNAME
+Protecteur Type 4                 //    PIT_Spec4,
+END
+
+// Seeker Buildings
+//
+BLDNAME
+G‚n‚rateur de Tone structurel        //    PIT_BuildToneProducer
+END
+
+BLDNAME
+Cr‚ateur de Tone Magique             //    PIT_MagicToneProducer,
+END
+
+BLDNAME
+Producteur de Tone cristallin             //    PIT_CrystToneProducer,
+END
+
+BLDNAME
+N‚buliseur de Tone                   //    PIT_ToneTower,
+END
+
+BLDNAME
+Multiplicateur de flux de Tone              //    PIT_ToneRateEnricher,
+END
+
+BLDNAME
+Grande BibliothŠque                      // 	  PIT_GreatHall,
+END
+
+BLDNAME
+P‚piniŠre                    //    PIT_Hatchery,
+END
+
+BLDNAME
+Clan de Sol                     //    PIT_Recruiter1,
+END
+
+BLDNAME
+Voix de l'Esprit                  //    PIT_Recruiter2,
+END
+
+BLDNAME
+Guilde de la LumiŠre          //    PIT_Recruiter3,
+END
+
+BLDNAME
+Sorcier du Firmament             //    PIT_Spell1,
+END
+
+BLDNAME
+Sort du Chercheur	//  PIT_Spell2,
+END
+
+BLDNAME
+Chercheur Type 1                 //    PIT_Spec1,
+END
+
+BLDNAME
+Chercheur Type 2                 //    PIT_Spec2,
+END
+
+BLDNAME
+Chercheur Type 3                 //    PIT_Spec3,
+END
+
+BLDNAME
+Chercheur Type 4                 //    PIT_Spec4,
+END
+
+
+// Mystic Buildings
+//
+BLDNAME
+G‚n‚rateur de Tone structurel        //    PIT_BuildToneProducer
+END
+
+BLDNAME
+Cr‚ateur de Tone magique	//    PIT_MagicToneProducer,
+END
+
+BLDNAME
+Producteur de Tone cristallin             //    PIT_CrystToneProducer,
+END
+
+BLDNAME
+N‚buliseur de Tone                   //    PIT_ToneTower,
+END
+
+BLDNAME
+Multiplicateur de flux de Tone              //    PIT_ToneRateEnricher,
+END
+
+BLDNAME
+Grande BibliothŠque                      // 	  PIT_GreatHall,
+END
+
+BLDNAME
+P‚piniŠre                   //    PIT_Hatchery,
+END
+
+BLDNAME
+F‚e du requiem                    //    PIT_Recruiter1,
+END
+
+BLDNAME
+Prˆtre de l'orage                       //    PIT_Recruiter2,
+END
+
+BLDNAME
+Explorateur c‚leste                //    PIT_Recruiter3,
+END
+
+BLDNAME
+Ordre d'Arcania                //    PIT_Spell1,
+END
+
+BLDNAME
+Sort Mystique                //    PIT_Spell2,
+END
+
+BLDNAME
+Mystique Type 1                 //    PIT_Spec1,
+END
+
+BLDNAME
+Mystique Type 2                 //    PIT_Spec2,
+END
+
+BLDNAME
+Mystique Type 3                 //    PIT_Spec3,
+END
+
+BLDNAME
+Mystique Type 4                 //    PIT_Spec4,
+END
+
+
+// Lifegiver Buildings
+//
+BLDNAME
+G‚n‚rateur de Tone structurel        //    PIT_BuildToneProducer
+END
+
+BLDNAME
+Cr‚ateur de Tone magique	//    PIT_MagicToneProducer,
+END
+
+BLDNAME
+Producteur de Tone cristallin	//    PIT_CrystToneProducer,
+END
+
+BLDNAME
+N‚buliseur de Tone 			//    PIT_ToneTower,
+END
+
+BLDNAME
+Multiplicateur de flux de Tone              //    PIT_ToneRateEnricher,
+END
+
+BLDNAME
+Grande BibliothŠque               	       // 	  PIT_GreatHall,
+END
+
+BLDNAME
+P‚piniŠre                    			 //    PIT_Hatchery,
+END
+
+BLDNAME
+Sorcier Invocateur                     //    PIT_Recruiter1,
+END
+
+BLDNAME
+Repaire de la Bˆte                //    PIT_Recruiter2,
+END
+
+// TRANSLATION CHANGE
+BLDNAME
+Fa‡onneur du Vent                     //    PIT_Recruiter3,
+END
+
+BLDNAME
+Druide Enchanteur              //    PIT_Spell1,
+END
+
+BLDNAME
+Sort de vie                //    PIT_Spell2,
+END
+
+BLDNAME
+Porteur de vie  Type 1                 //    PIT_Spec1,
+END
+
+BLDNAME
+Porteur de vie  Type 2                 //    PIT_Spec2,
+END
+
+BLDNAME
+Porteur de vie  Type 3                 //    PIT_Spec3,
+END
+
+BLDNAME
+Porteur de vie  Type 4                 //    PIT_Spec4,
+END
+
+LEVNAME					//    PIT_Infection
+Contamination par le L‚viathan
+END
+
+LEVNAME                         //    PIT_PhySupply,
+Marais de Broont
+END
+
+
+LEVNAME                         //    PIT_SupSupply,
+Fournaise de Sasp
+END
+
+
+LEVNAME                         //    PIT_EthSupply,
+Orbe bestial
+END
+
+
+LEVNAME                         //    PIT_NatSupply,
+Arbre de Sanders
+END
+
+LEVNAME                         //    PIT_Attack1,
+Quitch
+END
+
+
+LEVNAME                         //    PIT_Attack2,
+Blistin
+END
+
+
+LEVNAME                         //    PIT_Attack3,
+Menace Aveugle
+END
+
+
+LEVNAME                         //    PIT_Attack4,
+Hydron
+END
+
+
+LEVNAME                         //    PIT_Attack5,
+Essaim de Feu
+END
+
+
+LEVNAME                         //    PIT_Attack6,
+Mabus
+END
+
+
+LEVNAME                         //    PIT_Shot1,
+Plasid
+END
+
+
+LEVNAME                         //    PIT_Shot2,
+An‚n‚pode
+END
+
+
+LEVNAME                         //    PIT_Shot3,
+Xylus
+END
+
+
+LEVNAME                         //    PIT_Rod1,
+Grender
+END
+
+
+LEVNAME                         //    PIT_Rod2,
+Mesron
+END
+
+
+LEVNAME                         //    PIT_Rod3,
+Sentinelle m‚canique
+END
+ 
+ENDTEXT

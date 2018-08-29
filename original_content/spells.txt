@@ -1,0 +1,175 @@
+
+; entry for every spell in the game
+Gu‚rison du Dojo
+Level       1
+MagCost     9
+CryCost     7
+Lanc‚ sur un Dojo, ce sort permet aux Flotteurs de ce Dojo d'ˆtre 
+soign‚s.
+END
+
+Paralysie des germes parasites
+Level       1
+MagCost     16
+CryCost     11
+Lanc‚e sur une zone, cette boule d'‚nergie t‚tanisante frappe 
+et paralyse tout germe parasite du L‚viathan dans les parages. 
+END
+
+Gu‚rison
+Level       1
+MagCost     12
+CryCost     9
+Fait appel … la substance vitale pour soigner plusieurs de vos 
+ouvriers Flotteurs les plus touch‚s. 
+END
+
+R‚paration
+Level       1
+MagCost     9
+CryCost     12
+Remet d'aplomb un bƒtiment endommag‚ grƒce … un afflux de Tone. 
+END
+
+Enchantement de bƒtiment
+Level       1
+MagCost     10
+CryCost     9
+G‚nŠre un mur de Tone lumineux autour d'un bƒtiment, le prot‚geant de
+tous les d‚gƒts.
+END
+
+Bouclier silencieux
+Level       1
+MagCost     12
+CryCost     7
+Ce bouclier enchant‚ protŠge un nodule de Tone de la contamination par le L‚viathan. 
+END
+
+Gardien du bassin
+Level       1
+MagCost     14
+CryCost     10
+Invoque un gardien mystique qui prot‚gera un bassin de Tone de la 
+contamination par le L‚viathan. 
+END
+
+Sacrifice
+Level       1
+MagCost     11
+CryCost     17
+Cr‚e une vague destructrice de Tone qui d‚truira tout sur son passage en 
+‚change de la vie d'un magicien. 
+END
+
+Saisie … distance
+Level       1
+MagCost     9
+CryCost     14
+Permet d'invoquer une main magique qui ira chercher un artefact 
+sur n'importe quelle zone visible.
+END
+
+Disque stellaire
+Level       1
+MagCost     11
+CryCost     13
+Ce disque d‚truit un bƒtiment ou un germe parasite mais n'a aucun 
+effet sur les ‚tangs de frai du L‚viathan.
+END
+
+Pluie de m‚t‚ores
+Level       1
+MagCost     7
+CryCost     13
+Fait appel … une avalanche de rochers c‚lestes qui d‚truisent tout 
+rejeton du L‚viathan.
+END
+
+R‚veil spirituel
+Level       2
+MagCost     33
+CryCost     13
+Stimule les Flotteurs d'un Dojo, leur permettant de mieux supporter
+les attaques ennemies.
+END
+
+Courage des braves
+Level       2
+MagCost     28
+CryCost     17
+Pousse les Flotteurs d'un Dojo … l'action et leur donne plus de force 
+et d'adresse.
+END
+
+Changement de royaume
+Level       2
+MagCost     34
+CryCost     12
+Transporte les Flotteurs d'un Dojo dans le royaume d'existence suivant.
+END
+
+Enchantement de tribu
+Level       2
+MagCost     36
+CryCost     17
+Rend les ouvriers de votre tribu invuln‚rables.
+END
+
+R‚sistance
+Level       2
+MagCost     22
+CryCost     19
+Permet aux Flotteurs d'un Dojo de combattre sans prendre de repos.
+END
+
+Lib‚ration de bassin de Tone
+Level       2
+MagCost     27
+CryCost     17
+LibŠre la fureur du Tone pour d‚truire l'un des ‚tangs de frai du 
+L‚viathan.
+END
+
+R‚bellion des bassins de Tone
+Level       2
+MagCost     35
+CryCost     12
+Fait appel au pouvoir des bassins de Tone pour geler les ‚tangs de 
+frai. 
+END
+
+Explosion de Qi
+Level       3
+MagCost     39
+CryCost     18
+Produit une vague de vie concentr‚e qui d‚truit tout … proximit‚. 
+Le magicien demeure prot‚g‚ dans une zone de calme.
+END
+
+M‚moire ethnique
+Level       3
+MagCost     43
+CryCost     18
+Transporte les Flotteurs d'un Dojo dans le royaume d'existence pr‚c‚dent.
+END
+
+Cadmus
+Level       3
+MagCost     59
+CryCost     33
+Hypnotise les cr‚atures ennemies d'une Œle et les pousse … se 
+retourner les unes contre les autres.
+END
+
+Brume temporelle
+Level       3
+MagCost     46
+CryCost     22
+Donne … chacun de vos Flotteurs un regain d'‚nergie, rendant leurs mouvements 
+plus rapides.
+END
+
+
+
+

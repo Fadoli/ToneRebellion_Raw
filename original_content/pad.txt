@@ -1,0 +1,175 @@
+; This file contains the generic pad info
+; Format:
+;
+; 1.  size (0-2 = small-large)
+; 2.  building cost (building tone)
+; 3.  move cost bld,cry,mag (for lev: range,strength)
+; 4.  maintenance cost (tone)
+; 5.  hit points
+; 6.  tone range extension (pixels)
+; 7.  tribe the item is made by
+; 8. item id (shape id)
+; 9. TEXT ID (TRIBE STUFF ONLY)
+;
+;1   2   3      4   5    6  7     8           9
+
+
+; generic or unowned pad items
+
+ 0   0   0,0,0  0   0    0  None  noshape     ; PIT_None
+ 0   0   0,0,0  0   0    0  None  noshape     ; PIT_Object
+ 0   0   0,0,0  0   0    0  None  br-trg01    ; PIT_BridgeTrigger
+ 0   0   0,0,0  0   0    0  None  noshape     ; PIT_FeatureTrigger
+ 0   0   0,0,0  0   0    0  None  noshape     ; PIT_IslandFeature
+
+
+;
+; Leviathan pad items
+;
+;------------------------------------------
+;
+; Order of power of close attack Lev buildings
+;
+;          Damage  HP
+;------------------------------------------
+;v-attck3  3       15       
+;v-attck2  5       10       
+;v-attck1  4       18       
+;v-attck4  7       22       
+;v-attck5  8       24       
+;v-attck6  10      23       
+;
+; Order of power of ranged Lev attack buildings
+;
+;        Range   Damage   HP
+;------------------------------------------
+;v-shot1 150     2        9 
+;v-rod1  100     3        13
+;v-rod2  200     4        11
+;v-rod3  175     5        20
+;v-shot2 260     6        15
+;v-shot3 320     6        16
+;
+;
+
+
+ 0   0   0,0,0    0   7    0  Levi  v-infect    ; PIT_Infection
+ 0   0   0,0,0    0 100    0  Levi  v-psupp     ; PIT_PhySupply
+ 0   0   0,0,0    0  80    0  Levi  v-ssupp     ; PIT_SupSupply
+ 0   0   0,0,0    0  80    0  Levi  v-esupp     ; PIT_EthSupply
+ 0   0   0,0,0    0 100    0  Levi  v-nsupp     ; PIT_NatSupply
+ 0   0   0,4,0    0  18    0  Levi  v-attck1    ; PIT_Attack1
+ 0   0   0,5,0    0  10    0  Levi  v-attck2    ; PIT_Attack2
+ 0   0   0,3,0    0  15    0  Levi  v-attck3    ; PIT_Attack3
+ 0   0   0,7,0    0  22    0  Levi  v-attck4    ; PIT_Attack4
+ 0   0   0,8,0    0  24    0  Levi  v-attck5    ; PIT_Attack5
+ 0   0   0,10,0   0  23    0  Levi  v-attck6    ; PIT_Attack6
+ 0   0   150,2,0  0   9    0  Levi  v-shot1     ; PIT_Shot1
+ 0   0   260,6,0  0  15    0  Levi  v-shot2     ; PIT_Shot2
+ 0   0   320,6,0  0  16    0  Levi  v-shot3     ; PIT_Shot3
+ 0   0   100,3,0  0  13    0  Levi  v-rod1      ; PIT_Rod1
+ 0   0   200,4,0  0  11    0  Levi  v-rod2      ; PIT_Rod2
+ 0   0   175,5,0  0  20    0  Levi  v-rod3      ; PIT_Rod3
+ 0   0   0,0,0    0  20    0  Levi  noshape     ; PIT_LeviathanHub
+ 0   0   0,0,0    0  20    0  Levi  v-shld0     ; PIT_LeviShield0
+ 0   0   0,0,0    0  20    0  Levi  v-shld1     ; PIT_LeviShield1
+ 0   0   0,0,0    0  20    0  Levi  v-shld2     ; PIT_LeviShield2
+ 0   0   0,0,0    0  20    0  Levi  v-shld3     ; PIT_LeviShield3
+ 0   0   0,0,0    0  20    0  Levi  v-shld4     ; PIT_LeviShield4
+ 0   0   0,0,0    0  20    0  Levi  v-shld5     ; PIT_LeviShield5
+ 0   0   0,0,0    0  20    0  Levi  v-shld6     ; PIT_LeviShield6
+ 0   0   0,0,0    0  20    0  Levi  v-shld7     ; PIT_LeviShield7
+ 0   0   0,0,0    0  20    0  Levi  v-shld8     ; PIT_LeviShield8
+ 0   0   0,0,0    0  20    0  Levi  v-shld9     ; PIT_LeviShield9
+ 0   0   0,0,0    0  20    0  Levi  v-shld10    ; PIT_LeviShield10
+ 0   0   0,0,0    0  20    0  Levi  v-shld11    ; PIT_LeviShield11
+ 0   0   0,0,0    0  20    0  Levi  v-shld12    ; PIT_LeviShield12
+ 0   0   0,0,0    0  20    0  Levi  v-shld13    ; PIT_LeviShield13
+
+
+
+; ****************************************************************
+; ***************** ONLY Floater Tribe Buildings past this point
+
+; Protector pad items
+
+ 0  35   10,0,10  1  30    0  Prot  p-bldton     BLDTON
+ 0  60   15,0,15  1  20    0  Prot  p-magton     MAGTON
+ 0  45   15,0,15  1  30  320  Prot  p-cryton     CRYTON
+ 0  10   15,0,15  1  20  320  Prot  p-extend     TONEXTEND
+ 0  25   15,0,15  0  14    0  Prot  p-enrich     NONE
+ 0  -1   15,0,15  0  50    0  Prot  p-hall       GREATHALL
+ 1  10   20,0,20  0  14    0  Prot  p-hatch      NONE
+ 1  50   20,0,20  0  35    0  Prot  p-train1     PTRAIN1
+ 1  50   15,0,25  0  35    0  Prot  p-train2     PTRAIN2
+ 1  50   15,0,15  0  50    0  Prot  p-train3     PTRAIN3
+ 1  50   20,0,15  0  30    0  Prot  p-spell1     PSPELL1
+ 1  -1   20,0,20  0  20    0  Prot  noshape      NONE
+ 1  50   20,0,20  0  20    0  Prot  p-spec1      NONE
+ 1  50   20,0,20  0  20    0  Prot  p-spec2      NONE
+ 1  50   20,0,20  0  20    0  Prot  p-spec3      NONE
+ 1  50   20,0,20  0  20    0  Prot  p-spec4      NONE
+
+; Seeker pad items
+
+ 0  35   10,0,10  1  25    0  Seek  s-bldton  BLDTON
+ 0  60   15,0,15  1  30    0  Seek  s-magton  MAGTON
+ 0  45   15,0,15  1  25  320  Seek  s-cryton  CRYTON
+ 0  10   15,0,15  1  20  320  Seek  s-extend  TONEXTEND
+ 0  25   15,0,15  0  14    0  Seek  s-enrich  NONE
+ 0  -1   15,0,15  0  45    0  Seek  s-hall    GREATHALL
+ 1  10   20,0,20  0  14    0  Seek  p-hatch   NONE
+ 1  50   20,0,20  0  35    0  Seek  s-train1  STRAIN1
+ 1  50   15,0,25  0  40    0  Seek  s-train2  STRAIN2
+ 1  50   15,0,15  0  50    0  Seek  s-train3  STRAIN3
+ 1  50   20,0,15  0  30    0  Seek  s-spell1  SSPELL1
+ 1  50   20,0,20  0  20    0  Seek  s-spell2  SSPELL2
+ 1  50   20,0,20  0  20    0  Seek  p-spec1   NONE
+ 0   0   20,0,20  0  20    0  Seek  p-spec2   NONE
+ 1  50   20,0,20  0  20    0  Seek  p-spec3   NONE
+ 0   0   20,0,20  0  20    0  Seek  p-spec4   NONE
+
+
+; Mystic pad items
+
+ 0  35   10,0,10  1  25    0  Myst  m-bldton   BLDTON
+ 0  60   15,0,15  1  30    0  Myst  m-magton   MAGTON
+ 0  45   15,0,15  1  25  320  Myst  m-cryton   CRYTON
+ 0  10   15,0,15  1  20  320  Myst  m-extend   TONEXTEND
+ 0  25   15,0,15  0  14    0  Myst  m-enrich   NONE
+ 0   0   15,0,15  0  45    0  Myst  m-hall     GREATHALL
+ 1  10   20,0,20  0  14    0  Myst  m-hatch    NONE
+ 1  50   20,0,20  0  35    0  Myst  m-train1   MTRAIN1
+ 1  50   15,0,25  0  40    0  Myst  m-train2   MTRAIN2
+ 1  50   15,0,15  0  50    0  Myst  m-train3   MTRAIN3
+ 1  50   20,0,15  0  30    0  Myst  m-spell1   MSPELL1
+ 1  50   20,0,20  0  20    0  Myst  m-spell2   NONE
+ 1  50   20,0,20  0  20    0  Myst  m-spec1    NONE
+ 0  -1   20,0,20  0  20    0  Myst  noshape    NONE
+ 1  50   20,0,20  0  20    0  Myst  m-spec3    NONE
+ 0  -1   20,0,20  0  20    0  Myst  noshape    NONE
+
+
+; Lifegiver pad items
+
+ 0  35   10,0,10  1  30    0  Life  l-bldton   BLDTON
+ 0  60   15,0,15  1  20    0  Life  l-magton   MAGTON
+ 0  45   15,0,15  1  30  320  Life  l-cryton   CRYTON
+ 0  10   15,0,15  1  20  320  Life  l-extend   TONEXTEND
+ 0  25   15,0,15  0  14    0  Life  l-enrich   NONE
+ 0   0   15,0,15  0  50    0  Life  l-hall     GREATHALL
+ 1  10   20,0,20  0  14    0  Life  m-hatch    NONE
+ 1  50   20,0,20  0  35    0  Life  l-train1   LTRAIN1
+ 1  50   15,0,25  0  40    0  Life  l-train2   LTRAIN2
+ 1  50   15,0,15  0  45    0  Life  l-train3   LTRAIN3
+ 1  50   20,0,15  0  30    0  Life  l-spell1   LSPELL1
+ 1   0   20,0,20  0  20    0  Life  m-spell2   NONE 
+ 1  50   20,0,20  0  20    0  Life  m-spec1    NONE
+ 1  -1   20,0,20  0  20    0  Life  noshape    NONE
+ 1  50   20,0,20  0  20    0  Life  m-spec3    NONE
+ 1  -1   20,0,20  0  20    0  Life  noshape    NONE 
+
+
+
+
+
